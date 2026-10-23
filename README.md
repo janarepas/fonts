@@ -23,13 +23,16 @@ Detailed metadata audit (requires fontTools):
 
 ## Installation
 
+The shell installer uses macOS Bash and does not require Python. It first checks matching filenames with a fast byte-for-byte comparison, and only hashes the installed font library when a new filename needs duplicate detection.
+
+
 Preview without installing:
 
-    python3 scripts/install_fonts.py
+    ./scripts/install_fonts.sh --dry-run
 
 Install fonts on macOS:
 
-    python3 scripts/install_fonts.py --install
+    ./scripts/install_fonts.sh --install
 
 Fonts are installed into ~/Library/Fonts.
 Existing different files will not be overwritten.
