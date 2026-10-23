@@ -5,21 +5,11 @@ Personal macOS font collection.
 ## Directory structure
 
 - fonts/ - Fonts organized by family
-- scripts/ - Audit and installation tools
+- scripts/ - Shell installer
 - licenses/ - License information
 - reports/ - Audit reports
 - fonts-manifest.csv - Font inventory
 - .gitignore - Ignored files
-
-## Audit
-
-Run:
-
-    python3 scripts/audit_fonts.py
-
-Detailed metadata audit (requires fontTools):
-
-    python3 scripts/audit_fonts.py --metadata
 
 ## Installation
 
