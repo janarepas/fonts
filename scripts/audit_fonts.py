@@ -32,7 +32,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--metadata", action="store_true", help="Inspect font names via optional fontTools")
     args = parser.parse_args()
-    files = sorted((p for p in ROOT.iterdir() if p.is_file() and p.suffix.lower() in EXTENSIONS), key=lambda p: p.name.lower())
+    files = sorted((p for p in (ROOT / "fonts").rglob("*") if p.is_file() and p.suffix.lower() in EXTENSIONS), key=lambda p: p.name.lower())
     groups = defaultdict(list)
     types = defaultdict(int)
     size = 0

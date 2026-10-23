@@ -26,7 +26,7 @@ def main():
     args = parser.parse_args()
     if args.install and sys.platform != "darwin":
         parser.error("--install requires macOS")
-    files = sorted((p for p in ROOT.iterdir() if p.is_file() and p.suffix.lower() in EXTENSIONS), key=lambda p: p.name.lower())
+    files = sorted((p for p in (ROOT / "fonts").rglob("*") if p.is_file() and p.suffix.lower() in EXTENSIONS), key=lambda p: p.name.lower())
     chosen = set(args.only)
     if chosen:
         absent = chosen.difference(p.name for p in files)

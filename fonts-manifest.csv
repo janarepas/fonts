@@ -1,1 +1,769 @@
-filename,family,style,version,source,license,redistribution_allowed,sha256,status
+filename,path,family,git_blob_sha,source,license,redistribution_allowed,status
+AGENCYB.TTF,fonts/AGENCYB/AGENCYB.TTF,AGENCYB,1ea69422be019e6120779911d2a02000e09dc0a6,,,,unverified
+ALDI SUED OT Black.otf,fonts/ALDI-SUED/ALDI SUED OT Black.otf,ALDI-SUED,f6341b26a0a3eacbbec04524cb07d3f0126ceed5,,,,unverified
+ALDI SUED OT Bold.otf,fonts/ALDI-SUED/ALDI SUED OT Bold.otf,ALDI-SUED,74fdb6a766d2ff7434f0e5abd7b83f4368cc7407,,,,unverified
+ALDI SUED OT Cn.otf,fonts/ALDI-SUED/ALDI SUED OT Cn.otf,ALDI-SUED,4b1f2a308cdccb4dc0bd64799d460a21abe7ec1b,,,,unverified
+ALDI SUED OT Light.otf,fonts/ALDI-SUED/ALDI SUED OT Light.otf,ALDI-SUED,b7a6892cc86804bc2b51ee54a74324e1eec56908,,,,unverified
+ALDI SUED OT Regular.otf,fonts/ALDI-SUED/ALDI SUED OT Regular.otf,ALDI-SUED,94e4b6d78c6464b5b8a319e175bd406e70d9d4e0,,,,unverified
+fonnts.com-Amifer_Black.otf,fonts/Amifer/fonnts.com-Amifer_Black.otf,Amifer,0ab75ebb7878614293902be33735805a970eb471,,,,unverified
+fonnts.com-Amifer_Black_Italic.otf,fonts/Amifer/fonnts.com-Amifer_Black_Italic.otf,Amifer,1d336bf881345189d340b5cc86b525aa45f49128,,,,unverified
+fonnts.com-Amifer_Bold.otf,fonts/Amifer/fonnts.com-Amifer_Bold.otf,Amifer,f5559371f174677f7bab9d12de6a8bed0ed8c8bc,,,,unverified
+fonnts.com-Amifer_Bold_Italic.otf,fonts/Amifer/fonnts.com-Amifer_Bold_Italic.otf,Amifer,dd9c7b8a221af091f321a8a6f08da02a3e34e6c3,,,,unverified
+fonnts.com-Amifer_ExtraBold.otf,fonts/Amifer/fonnts.com-Amifer_ExtraBold.otf,Amifer,3816746f7f1445e3ea355942e721ff4fab9e1931,,,,unverified
+fonnts.com-Amifer_ExtraBold_Italic.otf,fonts/Amifer/fonnts.com-Amifer_ExtraBold_Italic.otf,Amifer,9725915876f464a150f03a0878819fa5aa9e01dd,,,,unverified
+fonnts.com-Amifer_Italic.otf,fonts/Amifer/fonnts.com-Amifer_Italic.otf,Amifer,005c63ca2d839b4028fbdf9b7213a7a23230bc49,,,,unverified
+fonnts.com-Amifer_Medium.otf,fonts/Amifer/fonnts.com-Amifer_Medium.otf,Amifer,e2ccb4592e7aa1d2b192850862998cc882ad749e,,,,unverified
+fonnts.com-Amifer_Medium_Italic.otf,fonts/Amifer/fonnts.com-Amifer_Medium_Italic.otf,Amifer,9e8e402cd41946aa03170d41a3e2460a2bdbc126,,,,unverified
+fonnts.com-Amifer_Regular.otf,fonts/Amifer/fonnts.com-Amifer_Regular.otf,Amifer,211a7c80f0101a68d5d2b95aef99219f824fc58a,,,,unverified
+Avestrava Tattoo.ttf,fonts/Avestrava/Avestrava Tattoo.ttf,Avestrava,8ab23b2bbb7c943c5d27ccd4843dc864ad7ca203,,,,unverified
+Bookmania Black Italic.otf,fonts/Bookmania/Bookmania Black Italic.otf,Bookmania,233a18d43d86700560666129a87315ee16d5eeb9,,,,unverified
+Bookmania Black.otf,fonts/Bookmania/Bookmania Black.otf,Bookmania,d9e1f2b980c15c521d0bec0e1ffed4e14d3fefa7,,,,unverified
+Bookmania Bold Italic.otf,fonts/Bookmania/Bookmania Bold Italic.otf,Bookmania,8b85a9ccaa2ec4a90a981a7195d4574f12d5b239,,,,unverified
+Bookmania Bold.otf,fonts/Bookmania/Bookmania Bold.otf,Bookmania,5279d8f03406a16f2e6ef45968141170c9bfeae2,,,,unverified
+Bookmania Italic.otf,fonts/Bookmania/Bookmania Italic.otf,Bookmania,68f936f5fe470e226a7a1b6dd8be6b8a2dc6258b,,,,unverified
+Bookmania Light Italic.otf,fonts/Bookmania/Bookmania Light Italic.otf,Bookmania,76f8f9a4e95f916c8a605b6904f82d80cb06e0ab,,,,unverified
+Bookmania Light.otf,fonts/Bookmania/Bookmania Light.otf,Bookmania,b579dd9fa44ca8cad0922e91fdd1b4d63f37d31b,,,,unverified
+Bookmania Regular.otf,fonts/Bookmania/Bookmania Regular.otf,Bookmania,574eb8daec6362212ceae8cdca73d62607e98b29,,,,unverified
+Bookmania SemiBold Italic.otf,fonts/Bookmania/Bookmania SemiBold Italic.otf,Bookmania,99f79d37a7cbf70adb507aebdcd46245f5b35432,,,,unverified
+Bookmania SemiBold.otf,fonts/Bookmania/Bookmania SemiBold.otf,Bookmania,d9b1811e0962b4e72059d541eb64f61a84ef7adc,,,,unverified
+Bourton-BaseDrop1664.ttf,fonts/Bourton/Bourton-BaseDrop1664.ttf,Bourton,1273c5dfca3a68ecb93368aea3293d011d6d07c9,,,,unverified
+BrittanySignature.ttf,fonts/BrittanySignature/BrittanySignature.ttf,BrittanySignature,36a273de31b21764479a7f8a310684da9f5326c5,,,,unverified
+CapturaNow-Black.otf,fonts/CapturaNow/CapturaNow-Black.otf,CapturaNow,7ad4efe7e775f1e326037a4a2cd3c604212c91ca,,,,unverified
+CapturaNow-BlackItalic.otf,fonts/CapturaNow/CapturaNow-BlackItalic.otf,CapturaNow,307c2df63501768c769cf63d8a4d5c33d0a63f88,,,,unverified
+CapturaNow-Bold.otf,fonts/CapturaNow/CapturaNow-Bold.otf,CapturaNow,3c563afa177c133a506b1949e9409f003fe2959e,,,,unverified
+CapturaNow-BoldItalic.otf,fonts/CapturaNow/CapturaNow-BoldItalic.otf,CapturaNow,b3812631501d80e89e9880b0c3fa5f287690e441,,,,unverified
+CapturaNow-ExtraBold.otf,fonts/CapturaNow/CapturaNow-ExtraBold.otf,CapturaNow,8e1ee4ef8418e42a0be2a4b1017fa1dd6270eaf5,,,,unverified
+CapturaNow-ExtraBoldItalic.otf,fonts/CapturaNow/CapturaNow-ExtraBoldItalic.otf,CapturaNow,37f3abce2d9f17989cf0d743e222fa4479326de3,,,,unverified
+CapturaNow-ExtraLight.otf,fonts/CapturaNow/CapturaNow-ExtraLight.otf,CapturaNow,c733bfb6a858c6ab9f1e40c892d85c1e95aea784,,,,unverified
+CapturaNow-ExtraLightItalic.otf,fonts/CapturaNow/CapturaNow-ExtraLightItalic.otf,CapturaNow,135fb4b9d607126cc1954bd2e1aec29caefc1186,,,,unverified
+CapturaNow-Light.otf,fonts/CapturaNow/CapturaNow-Light.otf,CapturaNow,914416fd79e536351c2aba87af1e8cfbcfaadbc7,,,,unverified
+CapturaNow-LightItalic.otf,fonts/CapturaNow/CapturaNow-LightItalic.otf,CapturaNow,d0331db0f3c725c1ff9e8d630ad1ca810d5ed0ec,,,,unverified
+CapturaNow-Medium.otf,fonts/CapturaNow/CapturaNow-Medium.otf,CapturaNow,ee99cd9f60b85856fd7304b428a8c2ff83bf72ad,,,,unverified
+CapturaNow-MediumItalic.otf,fonts/CapturaNow/CapturaNow-MediumItalic.otf,CapturaNow,152a111ebb13f64701ba6f0139f75a5aca8f2ea0,,,,unverified
+CapturaNow-Regular.otf,fonts/CapturaNow/CapturaNow-Regular.otf,CapturaNow,133d1e2c3408c6b8471e15e7811a09973a5d9b58,,,,unverified
+CapturaNow-RegularItalic.otf,fonts/CapturaNow/CapturaNow-RegularItalic.otf,CapturaNow,14746bea1acc959e566f0367f9017015d051f53e,,,,unverified
+CapturaNow-Thin.otf,fonts/CapturaNow/CapturaNow-Thin.otf,CapturaNow,6e29b383db8a0ff0d3576f4c9079675fb029940a,,,,unverified
+CapturaNow-ThinItalic.otf,fonts/CapturaNow/CapturaNow-ThinItalic.otf,CapturaNow,8745ba505b4d6b408acd8f6be13b26f3f963cb13,,,,unverified
+Cattedrale-Ornament.otf,fonts/Cattedrale/Cattedrale-Ornament.otf,Cattedrale,79c8aa3cf3c086fb28dc34a1211f78151382740e,,,,unverified
+Cattedrale-Outline.otf,fonts/Cattedrale/Cattedrale-Outline.otf,Cattedrale,f05f4378fd90e42bb5992ee9bd8ce1a65d80a9f7,,,,unverified
+Cattedrale-Regular.otf,fonts/Cattedrale/Cattedrale-Regular.otf,Cattedrale,91f43489450d2c7a4a8792f2a379406bfb26c6ac,,,,unverified
+Cattedrale-Rough.otf,fonts/Cattedrale/Cattedrale-Rough.otf,Cattedrale,46367abefadcfa06f68e803237b5765dc30af9e6,,,,unverified
+Cattedrale-Sliced.otf,fonts/Cattedrale/Cattedrale-Sliced.otf,Cattedrale,57d16d1c78291bb7c629bd05de54ab4c9cd38c7e,,,,unverified
+CorporateACon-Reg.otf,fonts/CorporateACon/CorporateACon-Reg.otf,CorporateACon,42923fec23370622af1c194cba7482f0ae6cf8a3,,,,unverified
+CorporateS-Bold.otf,fonts/CorporateS/CorporateS-Bold.otf,CorporateS,956d610fb4f091df2703f9d5f1a04d0612cc182e,,,,unverified
+CorporateS-Light.otf,fonts/CorporateS/CorporateS-Light.otf,CorporateS,df23d1335201ba298fa428140ea906be17e7f75d,,,,unverified
+CorporateS-Regular.otf,fonts/CorporateS/CorporateS-Regular.otf,CorporateS,7ce17868e806b8caac3e87e4013c70d6c2ba9a41,,,,unverified
+Dharma Gothic Rounded C Bold Italic.otf,fonts/Dharma/Dharma Gothic Rounded C Bold Italic.otf,Dharma,e830967941f0f4fc7db968c154845e0587660fbe,,,,unverified
+Dharma Gothic Rounded C Bold.otf,fonts/Dharma/Dharma Gothic Rounded C Bold.otf,Dharma,3343b9762424522cfbabce73f8e9a8b079b575eb,,,,unverified
+Dharma Gothic Rounded C ExBold Italic.otf,fonts/Dharma/Dharma Gothic Rounded C ExBold Italic.otf,Dharma,7762227011a13e591ece38a4bcbc2f656b4c339b,,,,unverified
+Dharma Gothic Rounded C ExBold.otf,fonts/Dharma/Dharma Gothic Rounded C ExBold.otf,Dharma,4243af6a451df6a8871f6b2d5f6a60aa34c50e5c,,,,unverified
+Dharma Gothic Rounded C ExLight Italic.otf,fonts/Dharma/Dharma Gothic Rounded C ExLight Italic.otf,Dharma,326f92086080434e7412cb8eaeed3f0078540d53,,,,unverified
+Dharma Gothic Rounded C ExLight.otf,fonts/Dharma/Dharma Gothic Rounded C ExLight.otf,Dharma,f0ac6133addb70b7f069515eb0dd9a66a3e20963,,,,unverified
+Dharma Gothic Rounded C Heavy Italic.otf,fonts/Dharma/Dharma Gothic Rounded C Heavy Italic.otf,Dharma,5445186f08f25442ecc77492bde5dc0bb38c0e35,,,,unverified
+Dharma Gothic Rounded C Heavy.otf,fonts/Dharma/Dharma Gothic Rounded C Heavy.otf,Dharma,f68fbbc401c77502286e292300730f004a2e7099,,,,unverified
+Dharma Gothic Rounded C Light Italic.otf,fonts/Dharma/Dharma Gothic Rounded C Light Italic.otf,Dharma,ff9039182754ad242412c1ca52a8fd8b8cb5f31f,,,,unverified
+Dharma Gothic Rounded C Light.otf,fonts/Dharma/Dharma Gothic Rounded C Light.otf,Dharma,f88732b2e07e7617594ae90853800e83c76b7fca,,,,unverified
+Dharma Gothic Rounded C Regular Italic.otf,fonts/Dharma/Dharma Gothic Rounded C Regular Italic.otf,Dharma,1106ec344df9c225367305e15fd382c3cb56e133,,,,unverified
+Dharma Gothic Rounded C Regular.otf,fonts/Dharma/Dharma Gothic Rounded C Regular.otf,Dharma,fa1510640d1ede4531c98c46cbf3701c5c9e48d0,,,,unverified
+Dharma Gothic Rounded C Thin Italic.otf,fonts/Dharma/Dharma Gothic Rounded C Thin Italic.otf,Dharma,2baa6a196b7f0078519685bc614d625c7312b62e,,,,unverified
+Dharma Gothic Rounded C Thin.otf,fonts/Dharma/Dharma Gothic Rounded C Thin.otf,Dharma,ff549d14c167287d6bd6a85233c277fe0c7ad60d,,,,unverified
+Dharma Gothic Rounded E Bold Italic.otf,fonts/Dharma/Dharma Gothic Rounded E Bold Italic.otf,Dharma,b9aac75b063e56b5901f60ed3fcfbe23c439bc20,,,,unverified
+Dharma Gothic Rounded E Bold.otf,fonts/Dharma/Dharma Gothic Rounded E Bold.otf,Dharma,a3849a42808bcc1b16338b45d8312cac06e4f6d8,,,,unverified
+Dharma Gothic Rounded E ExBold Italic.otf,fonts/Dharma/Dharma Gothic Rounded E ExBold Italic.otf,Dharma,609b4c71934e8a4285cd16ae9cabb79fed8e156f,,,,unverified
+Dharma Gothic Rounded E ExBold.otf,fonts/Dharma/Dharma Gothic Rounded E ExBold.otf,Dharma,46d5c38db8189930d5a8cd1c045114fb717e2034,,,,unverified
+Dharma Gothic Rounded E ExLight Italic.otf,fonts/Dharma/Dharma Gothic Rounded E ExLight Italic.otf,Dharma,ae6ae073c64f7c857065c38236e99897be468f4b,,,,unverified
+Dharma Gothic Rounded E ExLight.otf,fonts/Dharma/Dharma Gothic Rounded E ExLight.otf,Dharma,9ef91b00bd9ae1509b5f21b13cecdd551c308beb,,,,unverified
+Dharma Gothic Rounded E Heavy Italic.otf,fonts/Dharma/Dharma Gothic Rounded E Heavy Italic.otf,Dharma,915687c6c7a2247d36c78fdeeff8ce3173668e45,,,,unverified
+Dharma Gothic Rounded E Heavy.otf,fonts/Dharma/Dharma Gothic Rounded E Heavy.otf,Dharma,373b738014e7e407d3c10b0229db69fc9f5dc3c3,,,,unverified
+Dharma Gothic Rounded E Light Italic.otf,fonts/Dharma/Dharma Gothic Rounded E Light Italic.otf,Dharma,0d78639ecab5cccc645c43f456bc9c3e82f5287b,,,,unverified
+Dharma Gothic Rounded E Light.otf,fonts/Dharma/Dharma Gothic Rounded E Light.otf,Dharma,ae82819a4e13d6af7c2e8ca6981452257423b588,,,,unverified
+Dharma Gothic Rounded E Regular Italic.otf,fonts/Dharma/Dharma Gothic Rounded E Regular Italic.otf,Dharma,0e38728fee7f9493e5f723bb599d672efa6f6bf1,,,,unverified
+Dharma Gothic Rounded E Regular.otf,fonts/Dharma/Dharma Gothic Rounded E Regular.otf,Dharma,91b63df4f7cae666938b1faadddf9e1d70f71c0b,,,,unverified
+Dharma Gothic Rounded E Thin Italic.otf,fonts/Dharma/Dharma Gothic Rounded E Thin Italic.otf,Dharma,b785bbce045973c009c5670961fc6e599bec3cb9,,,,unverified
+Dharma Gothic Rounded E Thin.otf,fonts/Dharma/Dharma Gothic Rounded E Thin.otf,Dharma,076d5b192c4f6cc41f2377ddf14f07898fd2faf9,,,,unverified
+Dharma Gothic Rounded M Bold Italic.otf,fonts/Dharma/Dharma Gothic Rounded M Bold Italic.otf,Dharma,a25534d762da8ce551f004b6810884f5c7261a3f,,,,unverified
+Dharma Gothic Rounded M Bold.otf,fonts/Dharma/Dharma Gothic Rounded M Bold.otf,Dharma,63d720e596284120544bb6fd04e5dcab4128e34f,,,,unverified
+Dharma Gothic Rounded M ExBold Italic.otf,fonts/Dharma/Dharma Gothic Rounded M ExBold Italic.otf,Dharma,24b5c36e3da9d14a106e1e246243a2b15948f93b,,,,unverified
+Dharma Gothic Rounded M ExBold.otf,fonts/Dharma/Dharma Gothic Rounded M ExBold.otf,Dharma,ed477c48e8b9c558f9adf0f8b37dfaf28f0e9dc3,,,,unverified
+Dharma Gothic Rounded M ExLight Italic.otf,fonts/Dharma/Dharma Gothic Rounded M ExLight Italic.otf,Dharma,fb4fc4e190bdcc1164443fd6d290ff05a237b03d,,,,unverified
+Dharma Gothic Rounded M ExLight.otf,fonts/Dharma/Dharma Gothic Rounded M ExLight.otf,Dharma,ad9ef3ac98011468f081a039370401abab607cd9,,,,unverified
+Dharma Gothic Rounded M Heavy Italic.otf,fonts/Dharma/Dharma Gothic Rounded M Heavy Italic.otf,Dharma,d4f514d467fda4143313de380f64936a4d43243c,,,,unverified
+Dharma Gothic Rounded M Heavy.otf,fonts/Dharma/Dharma Gothic Rounded M Heavy.otf,Dharma,2184b9c2b6f3b226816b9f038f3596b8805af1f6,,,,unverified
+Dharma Gothic Rounded M Light Italic.otf,fonts/Dharma/Dharma Gothic Rounded M Light Italic.otf,Dharma,a2d26f12922164666a384de38edf4896961304c2,,,,unverified
+Dharma Gothic Rounded M Light.otf,fonts/Dharma/Dharma Gothic Rounded M Light.otf,Dharma,a6285454adfdde59a9477fc111931a4c16904f31,,,,unverified
+Dharma Gothic Rounded M Regular Italic.otf,fonts/Dharma/Dharma Gothic Rounded M Regular Italic.otf,Dharma,a77f912c0fd26058888c4b297ce57138f5fc2b5d,,,,unverified
+Dharma Gothic Rounded M Regular.otf,fonts/Dharma/Dharma Gothic Rounded M Regular.otf,Dharma,ae4bbc30050ffc0a6e48d7d18a0c53a097e64598,,,,unverified
+Dharma Gothic Rounded M Thin Italic.otf,fonts/Dharma/Dharma Gothic Rounded M Thin Italic.otf,Dharma,6e4ae55544db53ba31bc33c9c676e97862c693f5,,,,unverified
+Dharma Gothic Rounded M Thin.otf,fonts/Dharma/Dharma Gothic Rounded M Thin.otf,Dharma,06177a23b4c250ea9e216d713b0965308096f04f,,,,unverified
+DharmaGothicC-Bold.otf,fonts/Dharma/DharmaGothicC-Bold.otf,Dharma,3e05f7999290c93d28c9aa64ab1a663419d103ae,,,,unverified
+DharmaGothicC-BoldItalic.otf,fonts/Dharma/DharmaGothicC-BoldItalic.otf,Dharma,2569bde186f332e3c383716ddd8ef7a556dd3fbb,,,,unverified
+DharmaGothicC-ExBold.otf,fonts/Dharma/DharmaGothicC-ExBold.otf,Dharma,84ba1138c0d1d3bac44c74d7857631db74eecae1,,,,unverified
+DharmaGothicC-ExBoldItalic.otf,fonts/Dharma/DharmaGothicC-ExBoldItalic.otf,Dharma,6d660cfe396ada911d30de686675bf7911d23e6c,,,,unverified
+DharmaGothicC-ExLight.otf,fonts/Dharma/DharmaGothicC-ExLight.otf,Dharma,3b5358932f1de4e14d7a3740c1c9de1e30c565b1,,,,unverified
+DharmaGothicC-ExLightItalic.otf,fonts/Dharma/DharmaGothicC-ExLightItalic.otf,Dharma,a1a1762020267b5aeead4def2490e10659251ac9,,,,unverified
+DharmaGothicC-Heavy.otf,fonts/Dharma/DharmaGothicC-Heavy.otf,Dharma,9cd0058747342c19fd4c2e717e5ae78177ed3f94,,,,unverified
+DharmaGothicC-HeavyItalic.otf,fonts/Dharma/DharmaGothicC-HeavyItalic.otf,Dharma,01778456c4bab0a65cf736208590ce91124ddb3f,,,,unverified
+DharmaGothicC-Light.otf,fonts/Dharma/DharmaGothicC-Light.otf,Dharma,8e8d260c3891895c39cf8f7f709ecd000fe8eeb1,,,,unverified
+DharmaGothicC-LightItalic.otf,fonts/Dharma/DharmaGothicC-LightItalic.otf,Dharma,063b0be50b17a38fd0cf37969fa55f60d9b3944d,,,,unverified
+DharmaGothicC-Regular.otf,fonts/Dharma/DharmaGothicC-Regular.otf,Dharma,d8e8b18dab3e47fd7a09b8079ecf6561955216d1,,,,unverified
+DharmaGothicC-RegularItalic.otf,fonts/Dharma/DharmaGothicC-RegularItalic.otf,Dharma,a21c85c40ffe83f07a023d8cca756d0914e1d517,,,,unverified
+DharmaGothicC-Thin.otf,fonts/Dharma/DharmaGothicC-Thin.otf,Dharma,e251d08a93fba4c4311e401fd9ae95dd0db46f15,,,,unverified
+DharmaGothicC-ThinItalic.otf,fonts/Dharma/DharmaGothicC-ThinItalic.otf,Dharma,b7f36d3dd69dbd746eff4e2569452f10c1cc303b,,,,unverified
+DharmaGothicE-Bold.otf,fonts/Dharma/DharmaGothicE-Bold.otf,Dharma,ee48580d7ad5b18194ee28e56cd9364120c37099,,,,unverified
+DharmaGothicE-BoldItalic.otf,fonts/Dharma/DharmaGothicE-BoldItalic.otf,Dharma,86e936319f490b975685ce7522f39c9fd8dd84de,,,,unverified
+DharmaGothicE-ExBold.otf,fonts/Dharma/DharmaGothicE-ExBold.otf,Dharma,6c6c00130ba7dc6db90f1bf7844691f40c3533e4,,,,unverified
+DharmaGothicE-ExBoldItalic.otf,fonts/Dharma/DharmaGothicE-ExBoldItalic.otf,Dharma,70b02c9566aa2e9270e7063a7a59808cad477e6b,,,,unverified
+DharmaGothicE-ExLight.otf,fonts/Dharma/DharmaGothicE-ExLight.otf,Dharma,65cf82f0de1cdaa7ce6d76b836287f15231da869,,,,unverified
+DharmaGothicE-ExLightItalic.otf,fonts/Dharma/DharmaGothicE-ExLightItalic.otf,Dharma,a4e1f06995087b983b219374a97b3477e28747ff,,,,unverified
+DharmaGothicE-Heavy.otf,fonts/Dharma/DharmaGothicE-Heavy.otf,Dharma,0504091b8644388c5b6035f26062adf0455d9c9a,,,,unverified
+DharmaGothicE-HeavyItalic.otf,fonts/Dharma/DharmaGothicE-HeavyItalic.otf,Dharma,f210a86422b25e43b72b2bfe28efcd3c4444b882,,,,unverified
+DharmaGothicE-Light.otf,fonts/Dharma/DharmaGothicE-Light.otf,Dharma,e28e30a0b2d0bf50f97dc8c75df901260927ba70,,,,unverified
+DharmaGothicE-LightItalic.otf,fonts/Dharma/DharmaGothicE-LightItalic.otf,Dharma,53a2a73489c152fbcdefd170759ce010afd5ca63,,,,unverified
+DharmaGothicE-Regular.otf,fonts/Dharma/DharmaGothicE-Regular.otf,Dharma,cd96be689a6c1bcd0018aa8c92581f829938ae4a,,,,unverified
+DharmaGothicE-RegularItalic.otf,fonts/Dharma/DharmaGothicE-RegularItalic.otf,Dharma,c645a45be7a511f700356a1b5d6ad247dd7f4cfd,,,,unverified
+DharmaGothicE-Thin.otf,fonts/Dharma/DharmaGothicE-Thin.otf,Dharma,e679897ccdb7d64cb3b2944af0f47ff04d827d15,,,,unverified
+DharmaGothicE-ThinItalic.otf,fonts/Dharma/DharmaGothicE-ThinItalic.otf,Dharma,6097c454a2253bac3d08dd64572a97cbc0e7f758,,,,unverified
+DharmaGothicE_Bold_R.otf,fonts/Dharma/DharmaGothicE_Bold_R.otf,Dharma,ee48580d7ad5b18194ee28e56cd9364120c37099,,,,unverified
+DharmaGothicE_ExBold_I.otf,fonts/Dharma/DharmaGothicE_ExBold_I.otf,Dharma,70b02c9566aa2e9270e7063a7a59808cad477e6b,,,,unverified
+DharmaGothicE_ExBold_R.otf,fonts/Dharma/DharmaGothicE_ExBold_R.otf,Dharma,6c6c00130ba7dc6db90f1bf7844691f40c3533e4,,,,unverified
+DharmaGothicE_ExLight_I.otf,fonts/Dharma/DharmaGothicE_ExLight_I.otf,Dharma,a4e1f06995087b983b219374a97b3477e28747ff,,,,unverified
+DharmaGothicE_ExLight_R.otf,fonts/Dharma/DharmaGothicE_ExLight_R.otf,Dharma,65cf82f0de1cdaa7ce6d76b836287f15231da869,,,,unverified
+DharmaGothicE_Heavy_I.otf,fonts/Dharma/DharmaGothicE_Heavy_I.otf,Dharma,f210a86422b25e43b72b2bfe28efcd3c4444b882,,,,unverified
+DharmaGothicE_Heavy_R.otf,fonts/Dharma/DharmaGothicE_Heavy_R.otf,Dharma,0504091b8644388c5b6035f26062adf0455d9c9a,,,,unverified
+DharmaGothicE_Light_I.otf,fonts/Dharma/DharmaGothicE_Light_I.otf,Dharma,53a2a73489c152fbcdefd170759ce010afd5ca63,,,,unverified
+DharmaGothicE_Light_R.otf,fonts/Dharma/DharmaGothicE_Light_R.otf,Dharma,e28e30a0b2d0bf50f97dc8c75df901260927ba70,,,,unverified
+DharmaGothicE_Regular_I.otf,fonts/Dharma/DharmaGothicE_Regular_I.otf,Dharma,c645a45be7a511f700356a1b5d6ad247dd7f4cfd,,,,unverified
+DharmaGothicE_Regular_R.otf,fonts/Dharma/DharmaGothicE_Regular_R.otf,Dharma,cd96be689a6c1bcd0018aa8c92581f829938ae4a,,,,unverified
+DharmaGothicP-Bold.otf,fonts/Dharma/DharmaGothicP-Bold.otf,Dharma,445034a5dd61cf168cbc1b41067e9e8fa7af1bef,,,,unverified
+DharmaGothicP-BoldItalic.otf,fonts/Dharma/DharmaGothicP-BoldItalic.otf,Dharma,96f26b155ef1c1c46c0844fc31a62f8f2bb87697,,,,unverified
+DharmaGothicP-Italic.otf,fonts/Dharma/DharmaGothicP-Italic.otf,Dharma,fcc91bbf93d1963e2cd64525c2a6ddc9f9752ca6,,,,unverified
+DharmaGothicP-Regular.otf,fonts/Dharma/DharmaGothicP-Regular.otf,Dharma,3509536fb8d9d46853942123f500a39303972ef0,,,,unverified
+DharmaSlabC-Bold.otf,fonts/Dharma/DharmaSlabC-Bold.otf,Dharma,4d7b7da61dd01cc9116bea283dba343701e51e20,,,,unverified
+DharmaSlabC-BoldItalic.otf,fonts/Dharma/DharmaSlabC-BoldItalic.otf,Dharma,f70829134d861d8efc6867743543bd59e6db58bb,,,,unverified
+DharmaSlabC-ExBold.otf,fonts/Dharma/DharmaSlabC-ExBold.otf,Dharma,819c3f940bccfb42e7bd20c1cb4d2678db5655a7,,,,unverified
+DharmaSlabC-ExBoldItalic.otf,fonts/Dharma/DharmaSlabC-ExBoldItalic.otf,Dharma,94e78b00cb561fabd46ba0e62b94d26df7e949d8,,,,unverified
+DharmaSlabC-ExLight.otf,fonts/Dharma/DharmaSlabC-ExLight.otf,Dharma,a4ca00794e36a9a9561a9444abe29a99d7af710a,,,,unverified
+DharmaSlabC-ExLightItalic.otf,fonts/Dharma/DharmaSlabC-ExLightItalic.otf,Dharma,c2445525ce5bfadc57744483503d5c9e9d8044d9,,,,unverified
+DharmaSlabC-Heavy.otf,fonts/Dharma/DharmaSlabC-Heavy.otf,Dharma,4758db646446bee9bd54406ef0ddc4b9522b8465,,,,unverified
+DharmaSlabC-HeavyItalic.otf,fonts/Dharma/DharmaSlabC-HeavyItalic.otf,Dharma,4a32a0ce7718767677d251f45193405ca19af0a5,,,,unverified
+DharmaSlabC-Light.otf,fonts/Dharma/DharmaSlabC-Light.otf,Dharma,dc98fb753dd018a3ada5f3e59a1fc5b3357a2ab0,,,,unverified
+DharmaSlabC-LightItalic.otf,fonts/Dharma/DharmaSlabC-LightItalic.otf,Dharma,a9d971634352eae970fa58e3d37e29599dc6cbd9,,,,unverified
+DharmaSlabC-Regular.otf,fonts/Dharma/DharmaSlabC-Regular.otf,Dharma,7fd38cdf6de6404f7c6c1e75bfee2a3b46a15915,,,,unverified
+DharmaSlabC-RegularItalic.otf,fonts/Dharma/DharmaSlabC-RegularItalic.otf,Dharma,21486e601e333d8c42037bf1f27f478f96a2237f,,,,unverified
+DharmaSlabC-Thin.otf,fonts/Dharma/DharmaSlabC-Thin.otf,Dharma,916e210e64f42e82c7bd4d8f8646e204f3e0ab8e,,,,unverified
+DharmaSlabC-ThinItalic.otf,fonts/Dharma/DharmaSlabC-ThinItalic.otf,Dharma,d4eeee6b0bebe75c9a282d536567def06a24e712,,,,unverified
+DharmaSlabE-Bold.otf,fonts/Dharma/DharmaSlabE-Bold.otf,Dharma,1556436c075ef6af96e02a07a4ed49642b681e28,,,,unverified
+DharmaSlabE-BoldItalic.otf,fonts/Dharma/DharmaSlabE-BoldItalic.otf,Dharma,daa9b9993be32135ad580a6fd2b69819f583d58e,,,,unverified
+DharmaSlabE-ExBold.otf,fonts/Dharma/DharmaSlabE-ExBold.otf,Dharma,0849d9c1c0cb225167f6be47d564e63dd6661aea,,,,unverified
+DharmaSlabE-ExBoldItalic.otf,fonts/Dharma/DharmaSlabE-ExBoldItalic.otf,Dharma,13eed8801671ccc61847602c4b34531dff8f6d42,,,,unverified
+DharmaSlabE-ExLight.otf,fonts/Dharma/DharmaSlabE-ExLight.otf,Dharma,1d4c0b4286cbdb7f42352dc7cf3398b530356997,,,,unverified
+DharmaSlabE-ExLightItalic.otf,fonts/Dharma/DharmaSlabE-ExLightItalic.otf,Dharma,8289e451aa95479b6fac351003d2f300e0df9d2f,,,,unverified
+DharmaSlabE-Heavy.otf,fonts/Dharma/DharmaSlabE-Heavy.otf,Dharma,c921adfc4888c88be741d273d843a0f3af171591,,,,unverified
+DharmaSlabE-HeavyItalic.otf,fonts/Dharma/DharmaSlabE-HeavyItalic.otf,Dharma,1839e2c58c5033cdaf3aba2076edf21d6dd6b0b5,,,,unverified
+DharmaSlabE-Light.otf,fonts/Dharma/DharmaSlabE-Light.otf,Dharma,2611a06f9afd1e4a292f970cfce4893a7aca1557,,,,unverified
+DharmaSlabE-LightItalic.otf,fonts/Dharma/DharmaSlabE-LightItalic.otf,Dharma,81d6c7215890d446d6fa1c389082202f1ddb68a1,,,,unverified
+DharmaSlabE-Regular.otf,fonts/Dharma/DharmaSlabE-Regular.otf,Dharma,6a61e1c5353536593198fbdd354c68e5a8ef3dbf,,,,unverified
+DharmaSlabE-RegularItalic.otf,fonts/Dharma/DharmaSlabE-RegularItalic.otf,Dharma,f51974cf144f948949c8e08944198952a3257032,,,,unverified
+DharmaSlabE-Thin.otf,fonts/Dharma/DharmaSlabE-Thin.otf,Dharma,baa363b74efad782864e1d21b49c05320dce55da,,,,unverified
+DharmaSlabE-ThinItalic.otf,fonts/Dharma/DharmaSlabE-ThinItalic.otf,Dharma,206d79b1b20cecfb5cc03d070e6ae60381e97a1c,,,,unverified
+DharmaSlabM-Bold.otf,fonts/Dharma/DharmaSlabM-Bold.otf,Dharma,aa511ef732bed1d45e396ad17e9bf67e9b74e7da,,,,unverified
+DharmaSlabM-BoldItalic.otf,fonts/Dharma/DharmaSlabM-BoldItalic.otf,Dharma,04a98e9575c6c5385c2a43b1f123bd11a4b7b164,,,,unverified
+DharmaSlabM-ExBold.otf,fonts/Dharma/DharmaSlabM-ExBold.otf,Dharma,1aec3c7a748239890260d11d82bbb17f672f109d,,,,unverified
+DharmaSlabM-ExBoldItalic.otf,fonts/Dharma/DharmaSlabM-ExBoldItalic.otf,Dharma,7bff027508eba615e9fc9bcb69260dc3c7fd05fb,,,,unverified
+DharmaSlabM-ExLight.otf,fonts/Dharma/DharmaSlabM-ExLight.otf,Dharma,050b1b38449d2491b759898bbdebe1963374d42e,,,,unverified
+DharmaSlabM-ExLightItalic.otf,fonts/Dharma/DharmaSlabM-ExLightItalic.otf,Dharma,095139fb881a83010dc91e4cd755164645c598da,,,,unverified
+DharmaSlabM-Heavy.otf,fonts/Dharma/DharmaSlabM-Heavy.otf,Dharma,67540c38e09573c0533d7875ddcd84ff298aaa81,,,,unverified
+DharmaSlabM-HeavyItalic.otf,fonts/Dharma/DharmaSlabM-HeavyItalic.otf,Dharma,3ce5b1b89d90e3a498d896e99033d12ec7ac5f09,,,,unverified
+DharmaSlabM-Light.otf,fonts/Dharma/DharmaSlabM-Light.otf,Dharma,b69360092face84c04d48ec0d6a0dfde9e8bb9e3,,,,unverified
+DharmaSlabM-LightItalic.otf,fonts/Dharma/DharmaSlabM-LightItalic.otf,Dharma,5a7a6fa6ccef5e38fb75b4bc8f8ffe37f7bec4d5,,,,unverified
+DharmaSlabM-Regular.otf,fonts/Dharma/DharmaSlabM-Regular.otf,Dharma,c2b1b59429c0c2d5f86ffa9b70e090d4541d49b1,,,,unverified
+DharmaSlabM-RegularItalic.otf,fonts/Dharma/DharmaSlabM-RegularItalic.otf,Dharma,7443abb6e3e9bee09f1bdfedfc51265a3137416a,,,,unverified
+DharmaSlabM-Thin.otf,fonts/Dharma/DharmaSlabM-Thin.otf,Dharma,2f5e69cbc7808cce0143cd8f3d154f2f61c576ad,,,,unverified
+DharmaSlabM-ThinItalic.otf,fonts/Dharma/DharmaSlabM-ThinItalic.otf,Dharma,c14f52a22dd7834f784b52f5a84b125803917106,,,,unverified
+DirtyCrown.ttf,fonts/DirtyCrown/DirtyCrown.ttf,DirtyCrown,ad0a46b300442af7621f61a8be314048b0d65ca6,,,,unverified
+FLAGOTHUC-Regular.otf,fonts/FLAGOTHUC/FLAGOTHUC-Regular.otf,FLAGOTHUC,6abcb8e57beb60f14b8f4fb8df9dfaa4779911f6,,,,unverified
+FiraCode-VariableFont_wght.ttf,fonts/FiraCode/FiraCode-VariableFont_wght.ttf,FiraCode,d7077f1d6449cf260ee1d67c358f24c126aae7f9,,,,unverified
+FiraSans-Black.ttf,fonts/FiraSans/FiraSans-Black.ttf,FiraSans,113cd3b44a9fb2655f5182815e772fd71b8feb5f,,,,unverified
+FiraSans-BlackItalic.ttf,fonts/FiraSans/FiraSans-BlackItalic.ttf,FiraSans,1c49fb2401f8379507fc415850207268b130dd60,,,,unverified
+FiraSans-Bold.ttf,fonts/FiraSans/FiraSans-Bold.ttf,FiraSans,e3593fb0f3bd412542237820f34fbe74308bfada,,,,unverified
+FiraSans-BoldItalic.ttf,fonts/FiraSans/FiraSans-BoldItalic.ttf,FiraSans,305b0b8bad1c47b87f942d663bb9b3552bfc71b5,,,,unverified
+FiraSans-ExtraBold.ttf,fonts/FiraSans/FiraSans-ExtraBold.ttf,FiraSans,83744c15a415d5d4dacf533f78b210cbd6b3c9c0,,,,unverified
+FiraSans-ExtraBoldItalic.ttf,fonts/FiraSans/FiraSans-ExtraBoldItalic.ttf,FiraSans,54bcacac7a8ec79b927d0f11ab9b4fe1eeccf480,,,,unverified
+FiraSans-ExtraLight.ttf,fonts/FiraSans/FiraSans-ExtraLight.ttf,FiraSans,2d4e33122bb9aa2d71bc5c358889eebe5f5ff1ce,,,,unverified
+FiraSans-ExtraLightItalic.ttf,fonts/FiraSans/FiraSans-ExtraLightItalic.ttf,FiraSans,ef666adda37875fe4670760223591ae2178a248b,,,,unverified
+FiraSans-Italic.ttf,fonts/FiraSans/FiraSans-Italic.ttf,FiraSans,27d32ed961e7b7f72524b10d9fe8ab6afbe6b997,,,,unverified
+FiraSans-Light.ttf,fonts/FiraSans/FiraSans-Light.ttf,FiraSans,663d1de5020e3136376176d106dcfae52c1a7ccf,,,,unverified
+FiraSans-LightItalic.ttf,fonts/FiraSans/FiraSans-LightItalic.ttf,FiraSans,d1b1fc5865d704a724ae999191c33516aee057ca,,,,unverified
+FiraSans-Medium.ttf,fonts/FiraSans/FiraSans-Medium.ttf,FiraSans,001ebe7e6351750e418dbc197de3eb455d63ae56,,,,unverified
+FiraSans-MediumItalic.ttf,fonts/FiraSans/FiraSans-MediumItalic.ttf,FiraSans,b7640be00d8505630568e184171fcbd18220628d,,,,unverified
+FiraSans-Regular.ttf,fonts/FiraSans/FiraSans-Regular.ttf,FiraSans,6f806474948b2cfc5f8fb3fcea4b49e67c49031a,,,,unverified
+FiraSans-SemiBold.ttf,fonts/FiraSans/FiraSans-SemiBold.ttf,FiraSans,0c93b7e680cbe40208f224ce5537da94d7cd9e16,,,,unverified
+FiraSans-SemiBoldItalic.ttf,fonts/FiraSans/FiraSans-SemiBoldItalic.ttf,FiraSans,e1a2989dbb66899a41e0baf03e856403ee7023e3,,,,unverified
+FiraSans-Thin.ttf,fonts/FiraSans/FiraSans-Thin.ttf,FiraSans,c925f94a59623ef380fd152dc978aaa3350c206d,,,,unverified
+FiraSans-ThinItalic.ttf,fonts/FiraSans/FiraSans-ThinItalic.ttf,FiraSans,dd39092f48ef80bd8c7792d7d9f17ceba337b204,,,,unverified
+Fontfabric - Nexa Rust Extras Goodies.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Extras Goodies.otf,Fontfabric,0e479f8975eac99f6471757fb3f2320a6a54b658,,,,unverified
+Fontfabric - Nexa Rust Extras Icons.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Extras Icons.otf,Fontfabric,f43ed0711fe3c8fc3c50789331973a48321094f7,,,,unverified
+Fontfabric - Nexa Rust Extras Nature.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Extras Nature.otf,Fontfabric,aba7d627dd9c2f22063f26cd10a76cf10d7d4263,,,,unverified
+Fontfabric - Nexa Rust Extras Script.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Extras Script.otf,Fontfabric,bbf24118bee2b39eabc20ffb4172163f81857700,,,,unverified
+Fontfabric - Nexa Rust Extras Words.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Extras Words.otf,Fontfabric,86421ccb13930e19b8e01558f0a3d144c0238a78,,,,unverified
+Fontfabric - Nexa Rust Handmade Condensed.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Handmade Condensed.otf,Fontfabric,9de2ee0d62d2b144cbbc7501216ee62750cda127,,,,unverified
+Fontfabric - Nexa Rust Handmade Extended.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Handmade Extended.otf,Fontfabric,dcdf547b4f0d31a547dd51d1da1efda7aab3fa2c,,,,unverified
+Fontfabric - Nexa Rust Sans Black 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Black 01.otf,Fontfabric,a4238fed0ca69b06fb79ab4bca55a6e4d42b809c,,,,unverified
+Fontfabric - Nexa Rust Sans Black 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Black 02.otf,Fontfabric,0fdd75c8f84b868ea7767ce029299bce0bc12858,,,,unverified
+Fontfabric - Nexa Rust Sans Black 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Black 03.otf,Fontfabric,6ecdf709570cc67a9c68200aeb7db828e02714a8,,,,unverified
+Fontfabric - Nexa Rust Sans Black Shadow 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Black Shadow 01.otf,Fontfabric,a3d36b1e866f6cf9d11b0e8d0cca12807642475d,,,,unverified
+Fontfabric - Nexa Rust Sans Black Shadow 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Black Shadow 02.otf,Fontfabric,31ecf503ff1144d46d4ee247ad185c11a70d8b00,,,,unverified
+Fontfabric - Nexa Rust Sans Black Shadow 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Black Shadow 03.otf,Fontfabric,0b9337e6c6d3906e9c098aa4c4bd5633eaa49e1e,,,,unverified
+Fontfabric - Nexa Rust Sans Black Shadow.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Black Shadow.otf,Fontfabric,4dc211646aaf9a0ad79a46e3b60d3b92e2f35f89,,,,unverified
+Fontfabric - Nexa Rust Sans Black.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Black.otf,Fontfabric,59523613e72d9444b5fd68767347f456d2d1984a,,,,unverified
+Fontfabric - Nexa Rust Sans Book 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Book 01.otf,Fontfabric,05064678e8dfba3dc668ba9a48bc2754c7f1900d,,,,unverified
+Fontfabric - Nexa Rust Sans Book 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Book 02.otf,Fontfabric,6329e4853f17f8a59015a4459dc2262fdef30d6d,,,,unverified
+Fontfabric - Nexa Rust Sans Book 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Book 03.otf,Fontfabric,40eebd8e10659da498bd67f619b461eb9d9470d1,,,,unverified
+Fontfabric - Nexa Rust Sans Book.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Book.otf,Fontfabric,8643f0e6aeed7c503cf5dad873acfc4b159a0c78,,,,unverified
+Fontfabric - Nexa Rust Sans Shadow.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Sans Shadow.otf,Fontfabric,697f316b5c0e4694e0c302250272efa4d346fa5d,,,,unverified
+Fontfabric - Nexa Rust Script B 00.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script B 00.otf,Fontfabric,40a2e87005aa23d67ebf3c09c51828c3e9522ae3,,,,unverified
+Fontfabric - Nexa Rust Script B 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script B 01.otf,Fontfabric,2637a42471ee642fccdf570b453cb0aeaa757708,,,,unverified
+Fontfabric - Nexa Rust Script B 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script B 02.otf,Fontfabric,3f97c53260f512ae71b750be30e0127d26e0fb15,,,,unverified
+Fontfabric - Nexa Rust Script B 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script B 03.otf,Fontfabric,cf2934bb5b0c36696d2eb491b62d882dec047fa2,,,,unverified
+Fontfabric - Nexa Rust Script B Shadow 00.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script B Shadow 00.otf,Fontfabric,da3365d8f5b0e3cee4ab080845e6e5de18539b33,,,,unverified
+Fontfabric - Nexa Rust Script B Shadow 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script B Shadow 01.otf,Fontfabric,e0de0d9f33bc4a0c1bcb9e96ea2394b050b2b6fe,,,,unverified
+Fontfabric - Nexa Rust Script B Shadow 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script B Shadow 02.otf,Fontfabric,ffb8767448e9e7616f70b4514e62f4e459a830c9,,,,unverified
+Fontfabric - Nexa Rust Script B Shadow 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script B Shadow 03.otf,Fontfabric,fb7dacd2111e40c4932ab488a506bca0cec96354,,,,unverified
+Fontfabric - Nexa Rust Script B Shadow.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script B Shadow.otf,Fontfabric,964ea03278fc2901473d1237a79d2bae6e74ea99,,,,unverified
+Fontfabric - Nexa Rust Script H 00.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script H 00.otf,Fontfabric,5ec9b63454ab058f8fa765e592d5aefeda666196,,,,unverified
+Fontfabric - Nexa Rust Script H 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script H 01.otf,Fontfabric,2abf920e010241c89b3c074e2da7bc1c293f7243,,,,unverified
+Fontfabric - Nexa Rust Script H 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script H 02.otf,Fontfabric,5f3381faa8116a1994739facd227c0a6cd92b3b5,,,,unverified
+Fontfabric - Nexa Rust Script H 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script H 03.otf,Fontfabric,23b52cee54501431ba5b5b96bd2b4a6fce132aa9,,,,unverified
+Fontfabric - Nexa Rust Script H Shadow 00.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script H Shadow 00.otf,Fontfabric,7f6d52524cd100dc3f17330c03a069f1a782b6a1,,,,unverified
+Fontfabric - Nexa Rust Script H Shadow 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script H Shadow 01.otf,Fontfabric,5c16d6cb74e21a67e74dd660fce282bfd90fa1c2,,,,unverified
+Fontfabric - Nexa Rust Script H Shadow 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script H Shadow 02.otf,Fontfabric,90bc16e5870b80b6683c40d70d85cc62da25c4f1,,,,unverified
+Fontfabric - Nexa Rust Script H Shadow 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script H Shadow 03.otf,Fontfabric,d763c287bbff5e4ec79a3f36ee6d27ebfb0c67ff,,,,unverified
+Fontfabric - Nexa Rust Script H Shadow.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script H Shadow.otf,Fontfabric,dc7afbc57df497983493dd31bc6a297a897566da,,,,unverified
+Fontfabric - Nexa Rust Script L 00.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script L 00.otf,Fontfabric,5bebb665b06d9f99534027dafd3906cd9256ea61,,,,unverified
+Fontfabric - Nexa Rust Script L 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script L 01.otf,Fontfabric,9d3c4b1b14cf051ffddb157442898820a38aa3b6,,,,unverified
+Fontfabric - Nexa Rust Script L 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script L 02.otf,Fontfabric,1437002ebd058f97cfb55facc05d696dc3d46d3c,,,,unverified
+Fontfabric - Nexa Rust Script L 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script L 03.otf,Fontfabric,a732486f693ba710ceb082cc77b41f5350b06ab2,,,,unverified
+Fontfabric - Nexa Rust Script L Shadow 00.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script L Shadow 00.otf,Fontfabric,9c8350dfc8407d40c2e90aba9dd4a56fd2fc63cc,,,,unverified
+Fontfabric - Nexa Rust Script L Shadow 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script L Shadow 01.otf,Fontfabric,8fb9bda00f6aa5d7b46605b7acca08e8c368761d,,,,unverified
+Fontfabric - Nexa Rust Script L Shadow 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script L Shadow 02.otf,Fontfabric,43131584397d0d4a0b70fd6c333623656f332d3b,,,,unverified
+Fontfabric - Nexa Rust Script L Shadow 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script L Shadow 03.otf,Fontfabric,f2d80331c044afa7fdfaefa9963f47ee986df236,,,,unverified
+Fontfabric - Nexa Rust Script L Shadow.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script L Shadow.otf,Fontfabric,8340a11dfd1e051aa8f6afba2189084640cb48c8,,,,unverified
+Fontfabric - Nexa Rust Script R 00.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script R 00.otf,Fontfabric,8bc8ecd882fff56ced1de67e5512e63547f7c9fe,,,,unverified
+Fontfabric - Nexa Rust Script R 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script R 01.otf,Fontfabric,84735d0eed731ee26581f1c1edc10626c73beab3,,,,unverified
+Fontfabric - Nexa Rust Script R 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script R 02.otf,Fontfabric,e585d5b1ad2fa3a58bdf61087694c2b25892348b,,,,unverified
+Fontfabric - Nexa Rust Script R 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script R 03.otf,Fontfabric,228845f9c861f72b193e3246ec4d38a2ac106737,,,,unverified
+Fontfabric - Nexa Rust Script R Shadow 00.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script R Shadow 00.otf,Fontfabric,9add9326b805dd4826e9ee14022fec60ccd2c10e,,,,unverified
+Fontfabric - Nexa Rust Script R Shadow 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script R Shadow 01.otf,Fontfabric,31544121bd899827c3740ff0901b0496829e8b93,,,,unverified
+Fontfabric - Nexa Rust Script R Shadow 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script R Shadow 02.otf,Fontfabric,fb45d44230f9972f4b6ccf253a6a94fe84c7b686,,,,unverified
+Fontfabric - Nexa Rust Script R Shadow 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script R Shadow 03.otf,Fontfabric,8a5792ae7724167dda798e16fff8b0883f34c1be,,,,unverified
+Fontfabric - Nexa Rust Script R Shadow.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script R Shadow.otf,Fontfabric,ef61ddb86215ab88d69373629d68325337ce89f6,,,,unverified
+Fontfabric - Nexa Rust Script S 00.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script S 00.otf,Fontfabric,3d5f18b6232a7e402b367baf61f59a1955579c10,,,,unverified
+Fontfabric - Nexa Rust Script S 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script S 01.otf,Fontfabric,ac389583b0de149a36fc84adb52d3379dcc832ab,,,,unverified
+Fontfabric - Nexa Rust Script S 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script S 02.otf,Fontfabric,de88ec04010dcc8c129cebc3c17a488b88d1f075,,,,unverified
+Fontfabric - Nexa Rust Script S 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script S 03.otf,Fontfabric,90a8266f75425b35b9d1d5e4b0c3f5a71b5c73ab,,,,unverified
+Fontfabric - Nexa Rust Script S Shadow 00.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script S Shadow 00.otf,Fontfabric,1cd7a64bd3fc15d7992d7e3b945913ccbba42914,,,,unverified
+Fontfabric - Nexa Rust Script S Shadow 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script S Shadow 01.otf,Fontfabric,35cb51f135fff8a4519155312985c85ddef4120b,,,,unverified
+Fontfabric - Nexa Rust Script S Shadow 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script S Shadow 02.otf,Fontfabric,78caaa41cda21d6d2d1687ef4e266eaf546fbfd9,,,,unverified
+Fontfabric - Nexa Rust Script S Shadow 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script S Shadow 03.otf,Fontfabric,cd23835072be5492304b1af0c4178d0f19dcc875,,,,unverified
+Fontfabric - Nexa Rust Script S Shadow.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script S Shadow.otf,Fontfabric,4644997e727aaf9c2081242eb50a07595463f75d,,,,unverified
+Fontfabric - Nexa Rust Script T 00.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script T 00.otf,Fontfabric,d317e68a36c358eda617b7077a65d7633f2f425b,,,,unverified
+Fontfabric - Nexa Rust Script T 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script T 01.otf,Fontfabric,d9de27aada1e1505c9c32dc23827916c3ddb7857,,,,unverified
+Fontfabric - Nexa Rust Script T 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script T 02.otf,Fontfabric,2c2a809376416361bf857511c657563c1472234e,,,,unverified
+Fontfabric - Nexa Rust Script T 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script T 03.otf,Fontfabric,4962f9848197082ae7565e465d6ce3ea8c3a9448,,,,unverified
+Fontfabric - Nexa Rust Script T Shadow 00.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script T Shadow 00.otf,Fontfabric,d40304ceeff936629f3424696c534de45a3372a6,,,,unverified
+Fontfabric - Nexa Rust Script T Shadow 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script T Shadow 01.otf,Fontfabric,ec9b948bbb2d2ef66f3d1c5cde1a297c3d981e81,,,,unverified
+Fontfabric - Nexa Rust Script T Shadow 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script T Shadow 02.otf,Fontfabric,4d2d3c04e1308553f0345f9bfaffc8299c8c3c9b,,,,unverified
+Fontfabric - Nexa Rust Script T Shadow 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script T Shadow 03.otf,Fontfabric,76656cc6a5f113cc405f112607b3b5c2fd0d6593,,,,unverified
+Fontfabric - Nexa Rust Script T Shadow.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Script T Shadow.otf,Fontfabric,ce48f428e30e7f3719d62f38ca40a0f12bb0ddb8,,,,unverified
+Fontfabric - Nexa Rust Slab Black 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Slab Black 01.otf,Fontfabric,497b8f018b26e9c4b823806c28dd9e13da505545,,,,unverified
+Fontfabric - Nexa Rust Slab Black 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Slab Black 02.otf,Fontfabric,10cb557a23e0f5791d05aa22012a960e3ece41e0,,,,unverified
+Fontfabric - Nexa Rust Slab Black 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Slab Black 03.otf,Fontfabric,8021be17b8d3279c04660e84bbf05681f815d87c,,,,unverified
+Fontfabric - Nexa Rust Slab Black Shadow 01.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Slab Black Shadow 01.otf,Fontfabric,4cb14fb5aab760e4fb58d00818ec09f05556f4d0,,,,unverified
+Fontfabric - Nexa Rust Slab Black Shadow 02.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Slab Black Shadow 02.otf,Fontfabric,06ecf72ac4a66a9a6cda2bd8926ee04e10a21114,,,,unverified
+Fontfabric - Nexa Rust Slab Black Shadow 03.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Slab Black Shadow 03.otf,Fontfabric,9ea34b5ca9e312446ec949beb96239ef1d21f513,,,,unverified
+Fontfabric - Nexa Rust Slab Black Shadow.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Slab Black Shadow.otf,Fontfabric,e33f5b5734ac85636f2adfc22e8b8c7076c718b6,,,,unverified
+Fontfabric - Nexa Rust Slab Black.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Slab Black.otf,Fontfabric,2ea445cd6d27bd7f3989c5e9d58573cad9753621,,,,unverified
+Fontfabric - Nexa Rust Slab Shadow.otf,fonts/Fontfabric/Fontfabric - Nexa Rust Slab Shadow.otf,Fontfabric,ee345c04064873da7fc13641b0ec12e19926792f,,,,unverified
+Futura Bold Italic font.ttf,fonts/Futura/Futura Bold Italic font.ttf,Futura,095bbdff60d46dd14809f8d65cca82c5e5ff10a5,,,,unverified
+Futura Bold font.ttf,fonts/Futura/Futura Bold font.ttf,Futura,0725025e5a903c1020a16f006ff760f04a717316,,,,unverified
+Futura Book Italic font.ttf,fonts/Futura/Futura Book Italic font.ttf,Futura,99cd8a6ada31ce1012eca2e05355d30ec6d82c52,,,,unverified
+Futura Book font.ttf,fonts/Futura/Futura Book font.ttf,Futura,8abcf15912a589ac2172edb4135f4c58369d8132,,,,unverified
+Futura Condensed Extra Bold.otf,fonts/Futura/Futura Condensed Extra Bold.otf,Futura,65dad4d329db1f25e99e0d53235a5dee631c46dd,,,,unverified
+Futura Extra Black font.ttf,fonts/Futura/Futura Extra Black font.ttf,Futura,f6f1b39462897544e17fdcc4623b6dc74997c623,,,,unverified
+Futura Heavy Italic font.ttf,fonts/Futura/Futura Heavy Italic font.ttf,Futura,8a49a3695cb63dc65a89c8c8ff76622a2fd30a92,,,,unverified
+Futura Heavy font.ttf,fonts/Futura/Futura Heavy font.ttf,Futura,97eded13a2e44285191f18a635967fe8803b97ce,,,,unverified
+Futura Light Italic font.ttf,fonts/Futura/Futura Light Italic font.ttf,Futura,cfb5ce4132db75fe54f36acb3f77d3c84d57a29f,,,,unverified
+Futura Light font.ttf,fonts/Futura/Futura Light font.ttf,Futura,250162f49392b2fd004193988d4eb76d8fb6c02c,,,,unverified
+Futura Medium Italic font.ttf,fonts/Futura/Futura Medium Italic font.ttf,Futura,81878d5f4c26d8e00cb18f86e626795d2df86c3c,,,,unverified
+Futura-CondensedLight.otf,fonts/Futura/Futura-CondensedLight.otf,Futura,aebc4d947c37f67809b16d225ad4bf8179cdff69,,,,unverified
+futura light bt.ttf,fonts/Futura/futura light bt.ttf,Futura,3fb654f1566b2e20ee7eb5639874513ebc293600,,,,unverified
+futura medium bt.ttf,fonts/Futura/futura medium bt.ttf,Futura,1ef199e9153a580ea105cca6896d954acbc35f63,,,,unverified
+futura medium condensed bt.ttf,fonts/Futura/futura medium condensed bt.ttf,Futura,7c3fe9e37ba50c240f4f9dc1bda7790197cc4b9b,,,,unverified
+Gatwick-VF.ttf,fonts/Gatwick/Gatwick-VF.ttf,Gatwick,2eee971d98c2b1db9afa8846bf010818ec676d48,,,,unverified
+IBMPlexMono-Bold.ttf,fonts/IBMPlexMono/IBMPlexMono-Bold.ttf,IBMPlexMono,247979caeb26c286a33cfd33234188d370c1c0ff,,,,unverified
+IBMPlexMono-BoldItalic.ttf,fonts/IBMPlexMono/IBMPlexMono-BoldItalic.ttf,IBMPlexMono,2321473f5fc802ca883514a6834adc3d626fa580,,,,unverified
+IBMPlexMono-ExtraLight.ttf,fonts/IBMPlexMono/IBMPlexMono-ExtraLight.ttf,IBMPlexMono,d6ab75db544be687a708ddd43f80db66bd9c422b,,,,unverified
+IBMPlexMono-ExtraLightItalic.ttf,fonts/IBMPlexMono/IBMPlexMono-ExtraLightItalic.ttf,IBMPlexMono,88308efd068a8731c8fe370add103bec563811f9,,,,unverified
+IBMPlexMono-Italic.ttf,fonts/IBMPlexMono/IBMPlexMono-Italic.ttf,IBMPlexMono,e259e84c9c86b7a022dd8d9426fbde655463517a,,,,unverified
+IBMPlexMono-Light.ttf,fonts/IBMPlexMono/IBMPlexMono-Light.ttf,IBMPlexMono,0dcb2fba5bfe024b9fb44c686f58cff2560da882,,,,unverified
+IBMPlexMono-LightItalic.ttf,fonts/IBMPlexMono/IBMPlexMono-LightItalic.ttf,IBMPlexMono,f4a5feaea7bcf04da52d3c9368a5472ffd211ec0,,,,unverified
+IBMPlexMono-Medium.ttf,fonts/IBMPlexMono/IBMPlexMono-Medium.ttf,IBMPlexMono,8253c5fba04c291d71d0e1171f09feb2c2dbe1ca,,,,unverified
+IBMPlexMono-MediumItalic.ttf,fonts/IBMPlexMono/IBMPlexMono-MediumItalic.ttf,IBMPlexMono,528b13b01041c69fbf70a127b2687d3fd8e0f357,,,,unverified
+IBMPlexMono-Regular.ttf,fonts/IBMPlexMono/IBMPlexMono-Regular.ttf,IBMPlexMono,601ae945ebe1a717ac3ab7ed393288975da83b32,,,,unverified
+IBMPlexMono-SemiBold.ttf,fonts/IBMPlexMono/IBMPlexMono-SemiBold.ttf,IBMPlexMono,5e0b41df1aa5307433af91fed67d9e5bac2a1658,,,,unverified
+IBMPlexMono-SemiBoldItalic.ttf,fonts/IBMPlexMono/IBMPlexMono-SemiBoldItalic.ttf,IBMPlexMono,58243dd3d027ce094def2b390aeb32aa70d71805,,,,unverified
+IBMPlexMono-Thin.ttf,fonts/IBMPlexMono/IBMPlexMono-Thin.ttf,IBMPlexMono,e069a647479012e5e797bb8c4869ab02c65c33da,,,,unverified
+IBMPlexMono-ThinItalic.ttf,fonts/IBMPlexMono/IBMPlexMono-ThinItalic.ttf,IBMPlexMono,f3ed26b292322e7197ec8289690e00bd8e69c90d,,,,unverified
+IBMPlexSans-Bold.ttf,fonts/IBMPlexSans/IBMPlexSans-Bold.ttf,IBMPlexSans,1d66b1a2e96d5e33d6f5fa8e81e76b4e5621d240,,,,unverified
+IBMPlexSans-BoldItalic.ttf,fonts/IBMPlexSans/IBMPlexSans-BoldItalic.ttf,IBMPlexSans,e07bc1f527dd77ba8fd967ef00a54371da7bfaf0,,,,unverified
+IBMPlexSans-ExtraLight.ttf,fonts/IBMPlexSans/IBMPlexSans-ExtraLight.ttf,IBMPlexSans,39218006610790ddbccd4964796dd0eecc77fd27,,,,unverified
+IBMPlexSans-ExtraLightItalic.ttf,fonts/IBMPlexSans/IBMPlexSans-ExtraLightItalic.ttf,IBMPlexSans,baf0e47d13a6d6e21094d6fd1216eca732ff1d04,,,,unverified
+IBMPlexSans-Italic.ttf,fonts/IBMPlexSans/IBMPlexSans-Italic.ttf,IBMPlexSans,efe8a1fb9de848891cd6e7d70280e1f47019c0ca,,,,unverified
+IBMPlexSans-Light.ttf,fonts/IBMPlexSans/IBMPlexSans-Light.ttf,IBMPlexSans,62292926854d1a963e8351eef8e39222e5752646,,,,unverified
+IBMPlexSans-LightItalic.ttf,fonts/IBMPlexSans/IBMPlexSans-LightItalic.ttf,IBMPlexSans,42fb3c855dbda34c2332ab8a126c38b0ccc1d290,,,,unverified
+IBMPlexSans-Medium.ttf,fonts/IBMPlexSans/IBMPlexSans-Medium.ttf,IBMPlexSans,a3826c4e9ab3f2d6e64e0c9aea7122ea3431e174,,,,unverified
+IBMPlexSans-MediumItalic.ttf,fonts/IBMPlexSans/IBMPlexSans-MediumItalic.ttf,IBMPlexSans,43e115ef030298fa55861cc36a8ec0bba1d3baa6,,,,unverified
+IBMPlexSans-Regular.ttf,fonts/IBMPlexSans/IBMPlexSans-Regular.ttf,IBMPlexSans,bd6817d5202895da5ac4fad88de3da71e652881a,,,,unverified
+IBMPlexSans-SemiBold.ttf,fonts/IBMPlexSans/IBMPlexSans-SemiBold.ttf,IBMPlexSans,09ec8cdae8208c26165db0c87da409cda8c26ae4,,,,unverified
+IBMPlexSans-SemiBoldItalic.ttf,fonts/IBMPlexSans/IBMPlexSans-SemiBoldItalic.ttf,IBMPlexSans,a9c14fede24bcd9ba7f974e3ec18c491df32ee30,,,,unverified
+IBMPlexSans-Text.ttf,fonts/IBMPlexSans/IBMPlexSans-Text.ttf,IBMPlexSans,d71489c33e4e42f88f84cb0bf0fe715f8323f048,,,,unverified
+IBMPlexSans-TextItalic.ttf,fonts/IBMPlexSans/IBMPlexSans-TextItalic.ttf,IBMPlexSans,4d65c4d94ea5cf363a48dc91aa847676460d0ed9,,,,unverified
+IBMPlexSans-Thin.ttf,fonts/IBMPlexSans/IBMPlexSans-Thin.ttf,IBMPlexSans,4e3fedd566e3c542c7be30ff8951e732c48f89c4,,,,unverified
+IBMPlexSans-ThinItalic.ttf,fonts/IBMPlexSans/IBMPlexSans-ThinItalic.ttf,IBMPlexSans,5e72258beb543fb8df764c5b286bcf8974f718c0,,,,unverified
+ITC Benguiat Bold.otf,fonts/ITC/ITC Benguiat Bold.otf,ITC,77891c7eca7e447a8b9fc62022e17054ace599ef,,,,unverified
+ITCAvantGardePro-Bk.otf,fonts/ITCAvantGardePro/ITCAvantGardePro-Bk.otf,ITCAvantGardePro,558ae5abb843045edcc7e7856fe3b4da6108bb70,,,,unverified
+ITCAvantGardePro-BkObl.otf,fonts/ITCAvantGardePro/ITCAvantGardePro-BkObl.otf,ITCAvantGardePro,41b456ffff873f31ccf80284eeff581d581defb5,,,,unverified
+ITCAvantGardePro-Bold.otf,fonts/ITCAvantGardePro/ITCAvantGardePro-Bold.otf,ITCAvantGardePro,e588fd7426212c050aa64f2953392ee35a403024,,,,unverified
+ITCAvantGardePro-BoldObl.otf,fonts/ITCAvantGardePro/ITCAvantGardePro-BoldObl.otf,ITCAvantGardePro,0c56ae22a7b37cb479ad203db25876f5cd69c4e3,,,,unverified
+ITCAvantGardePro-Demi.otf,fonts/ITCAvantGardePro/ITCAvantGardePro-Demi.otf,ITCAvantGardePro,0b382dabf863c563af7caaa3a49f0c84a06ac603,,,,unverified
+ITCAvantGardePro-DemiObl.otf,fonts/ITCAvantGardePro/ITCAvantGardePro-DemiObl.otf,ITCAvantGardePro,83855ad948b57357cce3f9392d5fbe62a0f737f4,,,,unverified
+ITCAvantGardePro-Md.otf,fonts/ITCAvantGardePro/ITCAvantGardePro-Md.otf,ITCAvantGardePro,39ca7c0e198a0a195e5283bd96ab22a18113e084,,,,unverified
+ITCAvantGardePro-MdObl.otf,fonts/ITCAvantGardePro/ITCAvantGardePro-MdObl.otf,ITCAvantGardePro,3bc6bed60605968282e0f1f17e45afeb5befce20,,,,unverified
+ITCAvantGardePro-XLt.otf,fonts/ITCAvantGardePro/ITCAvantGardePro-XLt.otf,ITCAvantGardePro,93438c74a318fa1bbb1030043035d2ea21403579,,,,unverified
+ITCAvantGardePro-XLtObl.otf,fonts/ITCAvantGardePro/ITCAvantGardePro-XLtObl.otf,ITCAvantGardePro,b115affbb02e52630be1a29df903c0ed58eec1ce,,,,unverified
+JetBrainsMono-Bold.ttf,fonts/JetBrainsMono/JetBrainsMono-Bold.ttf,JetBrainsMono,8c93043de6454ad2d5575f0751150c6551d9c588,,,,unverified
+JetBrainsMono-BoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMono-BoldItalic.ttf,JetBrainsMono,1ddf216d1884ab44789c0c86dc06f6556c4c4e22,,,,unverified
+JetBrainsMono-ExtraBold.ttf,fonts/JetBrainsMono/JetBrainsMono-ExtraBold.ttf,JetBrainsMono,435d7a726594da71e23b360e4c040d918b5943b6,,,,unverified
+JetBrainsMono-ExtraBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMono-ExtraBoldItalic.ttf,JetBrainsMono,79e616ebc74064ef7cbc38acb11b8a1ea477c13f,,,,unverified
+JetBrainsMono-ExtraLight.ttf,fonts/JetBrainsMono/JetBrainsMono-ExtraLight.ttf,JetBrainsMono,c131cbf2c60c9700ef83955c57dd9ee61b7a74ae,,,,unverified
+JetBrainsMono-ExtraLightItalic.ttf,fonts/JetBrainsMono/JetBrainsMono-ExtraLightItalic.ttf,JetBrainsMono,a768985bdfe7d5b06253d96cb41e9eef17955386,,,,unverified
+JetBrainsMono-Italic.ttf,fonts/JetBrainsMono/JetBrainsMono-Italic.ttf,JetBrainsMono,ccc9d6a5bc15ffbcce66f923bf3d7999c73ede84,,,,unverified
+JetBrainsMono-Light.ttf,fonts/JetBrainsMono/JetBrainsMono-Light.ttf,JetBrainsMono,15f15a2a121f3544286a7ea5ba886c56552e99b5,,,,unverified
+JetBrainsMono-LightItalic.ttf,fonts/JetBrainsMono/JetBrainsMono-LightItalic.ttf,JetBrainsMono,506208f6bb733a18eee6ab770e6cf5e85eeee3dd,,,,unverified
+JetBrainsMono-Medium.ttf,fonts/JetBrainsMono/JetBrainsMono-Medium.ttf,JetBrainsMono,97671156df256e850498054fdebcd41d74a65d6b,,,,unverified
+JetBrainsMono-MediumItalic.ttf,fonts/JetBrainsMono/JetBrainsMono-MediumItalic.ttf,JetBrainsMono,415a9e34d350f28abb962b41cb3e38c29042a1bf,,,,unverified
+JetBrainsMono-Regular.ttf,fonts/JetBrainsMono/JetBrainsMono-Regular.ttf,JetBrainsMono,dff66cc50702c75abd025dcf49f62a4dcc2d72de,,,,unverified
+JetBrainsMono-SemiBold.ttf,fonts/JetBrainsMono/JetBrainsMono-SemiBold.ttf,JetBrainsMono,a70e69bd21aa901f93ffa280f691cf513d13859d,,,,unverified
+JetBrainsMono-SemiBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMono-SemiBoldItalic.ttf,JetBrainsMono,968602e88d186ba807f3dbc717a277849277eb1f,,,,unverified
+JetBrainsMono-Thin.ttf,fonts/JetBrainsMono/JetBrainsMono-Thin.ttf,JetBrainsMono,7dbe2ac6ba53eb0712c4d1985f0ab6570f20be49,,,,unverified
+JetBrainsMono-ThinItalic.ttf,fonts/JetBrainsMono/JetBrainsMono-ThinItalic.ttf,JetBrainsMono,c6ad6c219402f46d445cb880d02c12879f4ded53,,,,unverified
+JetBrainsMonoNL-Bold.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-Bold.ttf,JetBrainsMono,f78f84fb433cb7179e11ebb85d92ebe9fca1dde5,,,,unverified
+JetBrainsMonoNL-BoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-BoldItalic.ttf,JetBrainsMono,9fb8c8325692c0a9f79c2fdbb25e3cb07419e881,,,,unverified
+JetBrainsMonoNL-ExtraBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-ExtraBold.ttf,JetBrainsMono,fe5be6a15846a6fbee3a4645829c533e21f9222f,,,,unverified
+JetBrainsMonoNL-ExtraBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-ExtraBoldItalic.ttf,JetBrainsMono,59fc980b97b6cc6f1d594a7ae7c669c029d3532b,,,,unverified
+JetBrainsMonoNL-ExtraLight.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-ExtraLight.ttf,JetBrainsMono,6da7b759877236cef91edd9bad9b89ca0a23ef22,,,,unverified
+JetBrainsMonoNL-ExtraLightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-ExtraLightItalic.ttf,JetBrainsMono,5733efc5947e68c0a9ee5b0d9e53f3c096445280,,,,unverified
+JetBrainsMonoNL-Italic.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-Italic.ttf,JetBrainsMono,4e9c3802dda3113b0c3a7cf994c7ad3eafc9db4d,,,,unverified
+JetBrainsMonoNL-Light.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-Light.ttf,JetBrainsMono,0b79b0c8919b567b7cc81fa85a1a55cbf0012e2e,,,,unverified
+JetBrainsMonoNL-LightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-LightItalic.ttf,JetBrainsMono,b5e08426eea8bcb15888b87a3fd871b0aed99071,,,,unverified
+JetBrainsMonoNL-Medium.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-Medium.ttf,JetBrainsMono,14543721be8c17a75d928d05ca6aae3a6c822d1f,,,,unverified
+JetBrainsMonoNL-MediumItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-MediumItalic.ttf,JetBrainsMono,8d63c6ccee500bae7e3c17964ccf8d748c933a8f,,,,unverified
+JetBrainsMonoNL-Regular.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-Regular.ttf,JetBrainsMono,70d2ec9e28d6e06e923629b78b8a12c12e841589,,,,unverified
+JetBrainsMonoNL-SemiBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-SemiBold.ttf,JetBrainsMono,ce60a88c205c3c06ee530f2e21153d3be1fa137b,,,,unverified
+JetBrainsMonoNL-SemiBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-SemiBoldItalic.ttf,JetBrainsMono,3b3f8f69a7ecb87fbdcc1b8e9dec1d71f125de88,,,,unverified
+JetBrainsMonoNL-Thin.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-Thin.ttf,JetBrainsMono,bea837e7a0ec1026e0b6dd1702da0099b3c5c63e,,,,unverified
+JetBrainsMonoNL-ThinItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNL-ThinItalic.ttf,JetBrainsMono,f0bfed7b667a939e58d6922a6e147024f8aa5391,,,,unverified
+JetBrainsMonoNLNerdFont-Bold.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-Bold.ttf,JetBrainsMono,41365a873be760125ef5469c435ba06e47a6d4ef,,,,unverified
+JetBrainsMonoNLNerdFont-BoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-BoldItalic.ttf,JetBrainsMono,ede5867154918df71668242ad03e28c15613b3d8,,,,unverified
+JetBrainsMonoNLNerdFont-ExtraBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-ExtraBold.ttf,JetBrainsMono,7430b4fafdadadcabd7425d3c9bd0dc1bc4b6ecf,,,,unverified
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf,JetBrainsMono,53020b94e6c3c4f112c0807a3cf55d95a57b7ccb,,,,unverified
+JetBrainsMonoNLNerdFont-ExtraLight.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-ExtraLight.ttf,JetBrainsMono,cc99cdf5360646385a983e55f582bc295bcdd82c,,,,unverified
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf,JetBrainsMono,10bcdaa198db87410714602bcb89251d2424c239,,,,unverified
+JetBrainsMonoNLNerdFont-Italic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-Italic.ttf,JetBrainsMono,d3857d6f165f2c64e6a33bab17a5050b964151ca,,,,unverified
+JetBrainsMonoNLNerdFont-Light.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-Light.ttf,JetBrainsMono,56d5f65a49dce5f066714ee58a6a440763f3c62f,,,,unverified
+JetBrainsMonoNLNerdFont-LightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-LightItalic.ttf,JetBrainsMono,bcb382c9487600d390c715604be56bc9f4e3e0b6,,,,unverified
+JetBrainsMonoNLNerdFont-Medium.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-Medium.ttf,JetBrainsMono,ee8c06cb4acf2265ac9b7a41ba37f68806b82c53,,,,unverified
+JetBrainsMonoNLNerdFont-MediumItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-MediumItalic.ttf,JetBrainsMono,f836007f6fb2473e158ebfdda3f1c4016878927f,,,,unverified
+JetBrainsMonoNLNerdFont-Regular.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-Regular.ttf,JetBrainsMono,8e9ac865a56045ba358d16c0a584028670b18e4b,,,,unverified
+JetBrainsMonoNLNerdFont-SemiBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-SemiBold.ttf,JetBrainsMono,8c33920d73ad2f3daecccfdb116165fa9cbd1ad0,,,,unverified
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf,JetBrainsMono,dcd0a9af01ab22544276ac03995de08fd3eb66f4,,,,unverified
+JetBrainsMonoNLNerdFont-Thin.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-Thin.ttf,JetBrainsMono,5a288f47eafe0320ab66f5204d92849cac088f88,,,,unverified
+JetBrainsMonoNLNerdFont-ThinItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFont-ThinItalic.ttf,JetBrainsMono,8410608bbe244d3954489b84dd6e9409de4990d2,,,,unverified
+JetBrainsMonoNLNerdFontMono-Bold.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-Bold.ttf,JetBrainsMono,2515d7bf3e37ed408a4c5d27349962d2c96b5caa,,,,unverified
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-BoldItalic.ttf,JetBrainsMono,1ed2ee9e209cc7c2b206eb5b7f3bbe90e853c77b,,,,unverified
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-ExtraBold.ttf,JetBrainsMono,fbac445ff52b6e4bf7a05dbf25b70ac46c3781ad,,,,unverified
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf,JetBrainsMono,37ef9fe34dd149f9f73d161a3a493d632809f076,,,,unverified
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-ExtraLight.ttf,JetBrainsMono,ff486a91a4d7cb9903ca2bcb52e112bb3d5b7690,,,,unverified
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf,JetBrainsMono,4b18f9fda0c1bf0d354dfa9fe5952b1440b13556,,,,unverified
+JetBrainsMonoNLNerdFontMono-Italic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-Italic.ttf,JetBrainsMono,c9156a0715e0c2a00e64336e9145a09a613b1812,,,,unverified
+JetBrainsMonoNLNerdFontMono-Light.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-Light.ttf,JetBrainsMono,3ccfbd541996fbc528a0da140eedeea2e126765c,,,,unverified
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-LightItalic.ttf,JetBrainsMono,ec1af2b290b2330ada0009c9e63fc4b43dde5d33,,,,unverified
+JetBrainsMonoNLNerdFontMono-Medium.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-Medium.ttf,JetBrainsMono,c44d7fe80535d1d5d0a02e14330aeb5cbab92ab0,,,,unverified
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-MediumItalic.ttf,JetBrainsMono,8c3d9ae5ad73119d5f1c980dc26f4e6b9616336c,,,,unverified
+JetBrainsMonoNLNerdFontMono-Regular.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-Regular.ttf,JetBrainsMono,bde439ecd84b522076ad06cb862c4f78cb55a35a,,,,unverified
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-SemiBold.ttf,JetBrainsMono,7e65ea93f93c59c429a4a6d07e09c287228f4a80,,,,unverified
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf,JetBrainsMono,b83d3a0c1394007a3be007481a9acf20290acc4d,,,,unverified
+JetBrainsMonoNLNerdFontMono-Thin.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-Thin.ttf,JetBrainsMono,9a65eff38ff5a679922f67d81658c64064e5c4f3,,,,unverified
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-ThinItalic.ttf,JetBrainsMono,fd2853dcdf693c56b43e5520663ccf893aae887a,,,,unverified
+JetBrainsMonoNLNerdFontPropo-Bold.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-Bold.ttf,JetBrainsMono,953eefcf4083b580a74cca5264e7b36b7be0ff01,,,,unverified
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf,JetBrainsMono,26f77ff1bbac63d61e6bbd387f01b143c2f51a7b,,,,unverified
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf,JetBrainsMono,2de09ecd29478d2eea932683000f1230c18a2b6c,,,,unverified
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf,JetBrainsMono,876ab42ba9052290558a5143dcb2835e33fe5eae,,,,unverified
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf,JetBrainsMono,da2ab8fbd409c7774bf62ed7496ac5140f3796b9,,,,unverified
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf,JetBrainsMono,b812b7d79c556014cdf4304eb7553113ce7b8869,,,,unverified
+JetBrainsMonoNLNerdFontPropo-Italic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-Italic.ttf,JetBrainsMono,d64e92f4c69c510aca69d6a0052bbd64d2f4529d,,,,unverified
+JetBrainsMonoNLNerdFontPropo-Light.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-Light.ttf,JetBrainsMono,eecc7593f419fb73f1878eda21540354a872841a,,,,unverified
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-LightItalic.ttf,JetBrainsMono,cee40b620358da3508d769a4d3c4efab133048c8,,,,unverified
+JetBrainsMonoNLNerdFontPropo-Medium.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-Medium.ttf,JetBrainsMono,7dc9cd87ef7266f8345928c5f3e21b8be3ad9d61,,,,unverified
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf,JetBrainsMono,337396e965a348b90e8fdc5791dfd748b19be624,,,,unverified
+JetBrainsMonoNLNerdFontPropo-Regular.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-Regular.ttf,JetBrainsMono,c661453d98770538918223c0cc687b8494f54908,,,,unverified
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-SemiBold.ttf,JetBrainsMono,dd4f78d350c908db8f0e67e50410e2357300c268,,,,unverified
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf,JetBrainsMono,e0fb5e907b85d54e7502f847c5a9918bae0905f3,,,,unverified
+JetBrainsMonoNLNerdFontPropo-Thin.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-Thin.ttf,JetBrainsMono,4423c1c0523993ce7c0218d87f658e173dc7d411,,,,unverified
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf,JetBrainsMono,5c7e784dc053acb6aaaf969db1bd58ed5904d892,,,,unverified
+JetBrainsMonoNerdFont-Bold.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-Bold.ttf,JetBrainsMono,de2d3b3abe5234284849110eb2d555ce0e028b0c,,,,unverified
+JetBrainsMonoNerdFont-BoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-BoldItalic.ttf,JetBrainsMono,35bf0cbc3642e11041d5a9d68153d49056d07f75,,,,unverified
+JetBrainsMonoNerdFont-ExtraBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-ExtraBold.ttf,JetBrainsMono,09179285797330ec0815965a457f3af0db2df924,,,,unverified
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-ExtraBoldItalic.ttf,JetBrainsMono,eaec97c7cd53bf11dcef7a13f87bbd12228d4f49,,,,unverified
+JetBrainsMonoNerdFont-ExtraLight.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-ExtraLight.ttf,JetBrainsMono,5bc7d3019e6d7e15de6491c5230297d016c8a711,,,,unverified
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-ExtraLightItalic.ttf,JetBrainsMono,75f34961d7d78b7d8145223822ef15822aaa235c,,,,unverified
+JetBrainsMonoNerdFont-Italic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-Italic.ttf,JetBrainsMono,d867a9cf488b52c8b310aa721744e07601fc2905,,,,unverified
+JetBrainsMonoNerdFont-Light.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-Light.ttf,JetBrainsMono,55e0842482f603f0ac48f0e4e8539c3a170c64ea,,,,unverified
+JetBrainsMonoNerdFont-LightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-LightItalic.ttf,JetBrainsMono,3eb731dd7a108fd81ed0394eac6a4431df02be20,,,,unverified
+JetBrainsMonoNerdFont-Medium.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-Medium.ttf,JetBrainsMono,79a4b1f4d888185d28cd7b39345ddda5b47477da,,,,unverified
+JetBrainsMonoNerdFont-MediumItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-MediumItalic.ttf,JetBrainsMono,3c3a6372db86cb517451f523f69e6db75119daf6,,,,unverified
+JetBrainsMonoNerdFont-Regular.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-Regular.ttf,JetBrainsMono,235a07aef9028e2953076efc9038f1b1182f8b2b,,,,unverified
+JetBrainsMonoNerdFont-SemiBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-SemiBold.ttf,JetBrainsMono,c95fbbc827ce65883f7daaec57bab4f47c5523c3,,,,unverified
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-SemiBoldItalic.ttf,JetBrainsMono,ad38aaf9e282cb1f8d337921701161f85de62241,,,,unverified
+JetBrainsMonoNerdFont-Thin.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-Thin.ttf,JetBrainsMono,1ec349b829542ce8486e47029ea26ed13a2c3909,,,,unverified
+JetBrainsMonoNerdFont-ThinItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFont-ThinItalic.ttf,JetBrainsMono,efc4ae0cfbda47d46a7b06ca006dfe8292fc84a8,,,,unverified
+JetBrainsMonoNerdFontMono-Bold.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-Bold.ttf,JetBrainsMono,a03c26bc155b31e480d4c75b3dfb4c013125d6f3,,,,unverified
+JetBrainsMonoNerdFontMono-BoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-BoldItalic.ttf,JetBrainsMono,2b3c9ebf778c22e66d1f081c0913c8f965abaa10,,,,unverified
+JetBrainsMonoNerdFontMono-ExtraBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-ExtraBold.ttf,JetBrainsMono,5649d1508c24392fe51196af4ad3f2f78c25ae78,,,,unverified
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf,JetBrainsMono,ef84f9c2a85f1d3d15aae783af89ca4aaca0c047,,,,unverified
+JetBrainsMonoNerdFontMono-ExtraLight.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-ExtraLight.ttf,JetBrainsMono,6a01f3612dab6e8e4702b4020c11c7d6b258a81d,,,,unverified
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf,JetBrainsMono,e72d48b20a7869fba799daed8ec30ca817f2abd8,,,,unverified
+JetBrainsMonoNerdFontMono-Italic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-Italic.ttf,JetBrainsMono,a715148c5de36adea3ecae0eb2cf09e8b1ef2fdd,,,,unverified
+JetBrainsMonoNerdFontMono-Light.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-Light.ttf,JetBrainsMono,7e762249e3b0f13abaf61debd05ce09c720e5b6e,,,,unverified
+JetBrainsMonoNerdFontMono-LightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-LightItalic.ttf,JetBrainsMono,d0656308bf6c39ea5ed83de28c69049760149bef,,,,unverified
+JetBrainsMonoNerdFontMono-Medium.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-Medium.ttf,JetBrainsMono,254a920b340a202d875572b5e9632a4b21eec3c2,,,,unverified
+JetBrainsMonoNerdFontMono-MediumItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-MediumItalic.ttf,JetBrainsMono,f002d98618e32ca438d20afdfa8f05f368885d9e,,,,unverified
+JetBrainsMonoNerdFontMono-Regular.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-Regular.ttf,JetBrainsMono,f6934742bfa1737c3fab7c0371b58453db39d82b,,,,unverified
+JetBrainsMonoNerdFontMono-SemiBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-SemiBold.ttf,JetBrainsMono,3959e9fafd456f86bc43d836b235f74bc6a02d10,,,,unverified
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf,JetBrainsMono,5e1a5480ae08908cf452195e381f00d14f8b6a99,,,,unverified
+JetBrainsMonoNerdFontMono-Thin.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-Thin.ttf,JetBrainsMono,12994fe14359f5a15f7a9882ef972eeb7ae509b4,,,,unverified
+JetBrainsMonoNerdFontMono-ThinItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontMono-ThinItalic.ttf,JetBrainsMono,164114cf9cf23f792bdabaac68cddacf2a88203b,,,,unverified
+JetBrainsMonoNerdFontPropo-Bold.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-Bold.ttf,JetBrainsMono,a39883abd88532c595906b10f886ceea79f52837,,,,unverified
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-BoldItalic.ttf,JetBrainsMono,cad2d518df0bb2e2c81fd80039d82a2f50a806f5,,,,unverified
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-ExtraBold.ttf,JetBrainsMono,b75d53e20811728c6a4a240698f398b9aa93a874,,,,unverified
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf,JetBrainsMono,1c5b0efb94b72f71ca83f9c05e8a840bf4569327,,,,unverified
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-ExtraLight.ttf,JetBrainsMono,7b9b79b245be6a6a1b9c24cbafa74f4c60d9123e,,,,unverified
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf,JetBrainsMono,bf291f02953437ef939feb72317bf000230c7b0a,,,,unverified
+JetBrainsMonoNerdFontPropo-Italic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-Italic.ttf,JetBrainsMono,e4eea348ae9103170793f59b09c58377da8bc421,,,,unverified
+JetBrainsMonoNerdFontPropo-Light.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-Light.ttf,JetBrainsMono,5e026dbf3844ada1e41a96a6292d9ddd455668fd,,,,unverified
+JetBrainsMonoNerdFontPropo-LightItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-LightItalic.ttf,JetBrainsMono,24004a177a46a9f4b51b2263a10bc4f02004ac68,,,,unverified
+JetBrainsMonoNerdFontPropo-Medium.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-Medium.ttf,JetBrainsMono,ff3ddaca552078ca38ba85ce25ea28b11fbdc5de,,,,unverified
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-MediumItalic.ttf,JetBrainsMono,706b2d0e7a886644f064bbf689c4ce2d7b1d2c42,,,,unverified
+JetBrainsMonoNerdFontPropo-Regular.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-Regular.ttf,JetBrainsMono,8011ada81d36123458dc5f759f61d7b5d80e4aaa,,,,unverified
+JetBrainsMonoNerdFontPropo-SemiBold.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-SemiBold.ttf,JetBrainsMono,243dc09a979216c6bac465ad41acbb8ba8912b7b,,,,unverified
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf,JetBrainsMono,e36cfcfed2f0dbbeb405392782fcb21362035a95,,,,unverified
+JetBrainsMonoNerdFontPropo-Thin.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-Thin.ttf,JetBrainsMono,f563ce92a4d5e7295080529bb3cf8b1b871753cf,,,,unverified
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf,fonts/JetBrainsMono/JetBrainsMonoNerdFontPropo-ThinItalic.ttf,JetBrainsMono,52065a75fa27330f2d7a8a6e87c2791f5345c3cc,,,,unverified
+Kaira.ttf,fonts/Kaira/Kaira.ttf,Kaira,85a834d3ec0b6f53e30d753ab0cc2df8f64e6fc2,,,,unverified
+Kia Signature-Bold.otf,fonts/Kia/Kia Signature-Bold.otf,Kia,b1a3c0c0a549fe391d32aefbc77e5e31722463c8,,,,unverified
+Kia Signature-Light.otf,fonts/Kia/Kia Signature-Light.otf,Kia,d22d33cecdbef19181c1c2bf7991c874a25cd9e0,,,,unverified
+Kia Signature-Regular.otf,fonts/Kia/Kia Signature-Regular.otf,Kia,5f082ba9288dcdef09bfaf3aa63c93b7e34cd9a3,,,,unverified
+Kingthings Petrock.ttf,fonts/Kingthings/Kingthings Petrock.ttf,Kingthings,20ebb7099eb8a0db4ccc00d83bcebc399e3c7bc3,,,,unverified
+Lordish-Light.otf,fonts/Lordish/Lordish-Light.otf,Lordish,f1761b5b35e70610542920a8a98a8aeba2e38dbd,,,,unverified
+Lordish-Thin.otf,fonts/Lordish/Lordish-Thin.otf,Lordish,8601fe797f70ac71624caf7906bbea5dd140140d,,,,unverified
+Lordish.otf,fonts/Lordish/Lordish.otf,Lordish,12dddaf5bf67de4c29e828542e497038d7134964,,,,unverified
+FAIRE-LumaSans-Trial-Black.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-Black.otf,LumaSans-Trial,46815891ec9ec7e57ffe3e3daeace411669c0094,,,,unverified
+FAIRE-LumaSans-Trial-BlackItalic.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-BlackItalic.otf,LumaSans-Trial,6afcbc0850be09208a09d691701122ee51f577ec,,,,unverified
+FAIRE-LumaSans-Trial-Bold.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-Bold.otf,LumaSans-Trial,5014c2ceddde56da225edecbbcda387b070a772e,,,,unverified
+FAIRE-LumaSans-Trial-BoldItalic.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-BoldItalic.otf,LumaSans-Trial,8b1bd9247ed0552b88be0b04e27a26a5f508578d,,,,unverified
+FAIRE-LumaSans-Trial-Hairline.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-Hairline.otf,LumaSans-Trial,79980f6ecdcdfd2382200c3dbdf6980efe2b355c,,,,unverified
+FAIRE-LumaSans-Trial-HairlineItalic.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-HairlineItalic.otf,LumaSans-Trial,c7882cbf2bef3889f9710794ead832c759f90f9b,,,,unverified
+FAIRE-LumaSans-Trial-Light.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-Light.otf,LumaSans-Trial,5a4acaaa10b33557fb0fea501ba519f2cfbb2d24,,,,unverified
+FAIRE-LumaSans-Trial-LightItalic.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-LightItalic.otf,LumaSans-Trial,c6ed8dbc73977575759314163f37175840eb2616,,,,unverified
+FAIRE-LumaSans-Trial-Medium.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-Medium.otf,LumaSans-Trial,36b6b45a86d5b7387a4608d228647c24fce1dc57,,,,unverified
+FAIRE-LumaSans-Trial-MediumItalic.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-MediumItalic.otf,LumaSans-Trial,dd1a56e6f7e7cbd9be7094784f1c7bd0e207335c,,,,unverified
+FAIRE-LumaSans-Trial-Regular.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-Regular.otf,LumaSans-Trial,f0dd5b30e7cc05f37c7f5c99fe4202bd0382e4c1,,,,unverified
+FAIRE-LumaSans-Trial-RegularItalic.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-RegularItalic.otf,LumaSans-Trial,9dd6d64ac274f315250b4cd5d25ca37b1cc044e7,,,,unverified
+FAIRE-LumaSans-Trial-Super.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-Super.otf,LumaSans-Trial,6ffe199ae0e3e920adb2dc9e120306610997bdb4,,,,unverified
+FAIRE-LumaSans-Trial-SuperItalic.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-SuperItalic.otf,LumaSans-Trial,562ede5cd306bdb335336105427ffe2622a0f0ca,,,,unverified
+FAIRE-LumaSans-Trial-Thin.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-Thin.otf,LumaSans-Trial,a75a90596e3e031709d39c243ef0c2b61166544a,,,,unverified
+FAIRE-LumaSans-Trial-ThinItalic.otf,fonts/LumaSans-Trial/FAIRE-LumaSans-Trial-ThinItalic.otf,LumaSans-Trial,82c2e8f0a9949ad30ae9f92b6042568dd3e80e56,,,,unverified
+LunaSans-Black.otf,fonts/LunaSans/LunaSans-Black.otf,LunaSans,defe60d40d1920410f7cf818bb8f524eb809bfc4,,,,unverified
+LunaSans-BlackItalic.otf,fonts/LunaSans/LunaSans-BlackItalic.otf,LunaSans,e684a071e88b66284ccf32a23ada0cb4ff25ee81,,,,unverified
+LunaSans-BoldItalic.otf,fonts/LunaSans/LunaSans-BoldItalic.otf,LunaSans,6809b2ca3d6e9ce2926179be8ab1c2549d55230d,,,,unverified
+LunaSans-ExtraBold.otf,fonts/LunaSans/LunaSans-ExtraBold.otf,LunaSans,4a81b59961deb81915bd28fd268e2140410c2f66,,,,unverified
+LunaSans-ExtraBoldItalic.otf,fonts/LunaSans/LunaSans-ExtraBoldItalic.otf,LunaSans,4ba9d252190993af7297c7893b119e48ca7ec453,,,,unverified
+LunaSans-Italic.otf,fonts/LunaSans/LunaSans-Italic.otf,LunaSans,5928ff25e3b0ee1b8b1178ec60fb297c829c90c9,,,,unverified
+LunaSans-Light.otf,fonts/LunaSans/LunaSans-Light.otf,LunaSans,c20fbf5ac98812b6d84d986158115933a2bb09b7,,,,unverified
+LunaSans-LightItalic.otf,fonts/LunaSans/LunaSans-LightItalic.otf,LunaSans,c09793cc1b8876f42754d278b63cebfd2724437e,,,,unverified
+LunaSans-Regular.otf,fonts/LunaSans/LunaSans-Regular.otf,LunaSans,473a8a85255f773c322b5c1651e05760e8ab38e4,,,,unverified
+LunaSans-SemiBold.otf,fonts/LunaSans/LunaSans-SemiBold.otf,LunaSans,d38f8d57386889fabf38213ce82e968f6d14b0e8,,,,unverified
+LunaSans-SemiBoldItalic.otf,fonts/LunaSans/LunaSans-SemiBoldItalic.otf,LunaSans,f4799f1ccbaf4ec76dbeb043dca2abc0ce3a0732,,,,unverified
+LunaSans-Thin.otf,fonts/LunaSans/LunaSans-Thin.otf,LunaSans,c05b9b0fbf7ba4d1aa4078dc809f9940faa98f18,,,,unverified
+LunaSans-ThinItalic.otf,fonts/LunaSans/LunaSans-ThinItalic.otf,LunaSans,2896a1818a5a5da2638978b675c6da29d5a50537,,,,unverified
+fonnts.com-ManometerSans_Oblique.otf,fonts/ManometerSans/fonnts.com-ManometerSans_Oblique.otf,ManometerSans,7c6065a83d40ea5527527b0b77a41046cda06b44,,,,unverified
+fonnts.com-ManometerSans_Regular.otf,fonts/ManometerSans/fonnts.com-ManometerSans_Regular.otf,ManometerSans,7eee2885989565de1bd9c2ccfeba00e93bbcf5e9,,,,unverified
+Midtown Regular.ttf,fonts/Midtown/Midtown Regular.ttf,Midtown,cbab620dd112ebb8321e332852365429889ad319,,,,unverified
+Midtown Rough.ttf,fonts/Midtown/Midtown Rough.ttf,Midtown,d2114bfa8f837eeaec948f76fa4c37f9ab5fe77c,,,,unverified
+Migra-Black.ttf,fonts/Migra/Migra-Black.ttf,Migra,40b9e7e9daf4c6f1d41f3fc923ae1ece2233ade0,,,,unverified
+Migra-Bold.ttf,fonts/Migra/Migra-Bold.ttf,Migra,cbfe842570356088c807192410ef67be77fd13af,,,,unverified
+Migra-Extrabold.ttf,fonts/Migra/Migra-Extrabold.ttf,Migra,a5b721f37bbd366c959b7a57527199d4cc8b9922,,,,unverified
+Migra-Extralight.ttf,fonts/Migra/Migra-Extralight.ttf,Migra,7ea9f96e1d050f2c37f5fa844ceb6d87e6ba288a,,,,unverified
+Migra-Light.ttf,fonts/Migra/Migra-Light.ttf,Migra,cc2696cc0591494ee94105f5625cb8be21451438,,,,unverified
+Migra-Medium.ttf,fonts/Migra/Migra-Medium.ttf,Migra,7c602f475172540ae3bc8cda966f501be4ffed18,,,,unverified
+Migra-Regular.ttf,fonts/Migra/Migra-Regular.ttf,Migra,37e1408b14c37b10c95350961163c6c0d28a5e0b,,,,unverified
+Migra-Semibold.ttf,fonts/Migra/Migra-Semibold.ttf,Migra,e93c62f50c79b1d374339894a3e9c48950263b23,,,,unverified
+MigraItalic-BlackItalic.ttf,fonts/MigraItalic/MigraItalic-BlackItalic.ttf,MigraItalic,4d0baeb76ff7c3473361101d47d744852ae03d00,,,,unverified
+MigraItalic-BoldItalic.ttf,fonts/MigraItalic/MigraItalic-BoldItalic.ttf,MigraItalic,4159561a68137fbf46192972dc2017c3f11648c9,,,,unverified
+MigraItalic-ExtraboldItalic.ttf,fonts/MigraItalic/MigraItalic-ExtraboldItalic.ttf,MigraItalic,7427b2cf29c13a9471dad946c7e611f9c32eddac,,,,unverified
+MigraItalic-ExtralightItalic.ttf,fonts/MigraItalic/MigraItalic-ExtralightItalic.ttf,MigraItalic,22c5882434ec6b0193e6f80aa7741813319e9369,,,,unverified
+MigraItalic-Italic.ttf,fonts/MigraItalic/MigraItalic-Italic.ttf,MigraItalic,6d2f292e14622c18d6aa073258c3d8426dee12b8,,,,unverified
+MigraItalic-LightItalic.ttf,fonts/MigraItalic/MigraItalic-LightItalic.ttf,MigraItalic,db209c1412747173f93d1db532c0c23e7c17f173,,,,unverified
+MigraItalic-MediumItalic.ttf,fonts/MigraItalic/MigraItalic-MediumItalic.ttf,MigraItalic,f5419dc6d41774d9b7f49e11730dd12c568b0887,,,,unverified
+MigraItalic-SemiboldItalic.ttf,fonts/MigraItalic/MigraItalic-SemiboldItalic.ttf,MigraItalic,4c506b4e6b87a6fbd81db0e5c49398480018cb8f,,,,unverified
+Montserrat-Black.ttf,fonts/Montserrat/Montserrat-Black.ttf,Montserrat,2fab7ab04f1be92aa334793fb80f6fa907a58bfa,,,,unverified
+Montserrat-BlackItalic.ttf,fonts/Montserrat/Montserrat-BlackItalic.ttf,Montserrat,04d3b47f39e553037570fd27bd67533caf650f5b,,,,unverified
+Montserrat-Bold.ttf,fonts/Montserrat/Montserrat-Bold.ttf,Montserrat,4033587556da7927c0a306d04bca9df4b2bea6fa,,,,unverified
+Montserrat-BoldItalic.ttf,fonts/Montserrat/Montserrat-BoldItalic.ttf,Montserrat,0cc5c2cb6bd8ac533b89ea902fbf01bc09a5d395,,,,unverified
+Montserrat-ExtraBold.ttf,fonts/Montserrat/Montserrat-ExtraBold.ttf,Montserrat,476ec30b6d18f02d4c124b38857885e3aece7701,,,,unverified
+Montserrat-ExtraBoldItalic.ttf,fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf,Montserrat,a1ac9a9550451284db21fcb6e99c575b91e757bc,,,,unverified
+Montserrat-ExtraLight.ttf,fonts/Montserrat/Montserrat-ExtraLight.ttf,Montserrat,efaeab0672fea891c7e8b5ef69c23626d52c5160,,,,unverified
+Montserrat-ExtraLightItalic.ttf,fonts/Montserrat/Montserrat-ExtraLightItalic.ttf,Montserrat,a8d18decb135bab738e804a8ec58918f526dd7c7,,,,unverified
+Montserrat-Italic.ttf,fonts/Montserrat/Montserrat-Italic.ttf,Montserrat,5f08df020422669282e44645de4d514ab3cbd68e,,,,unverified
+Montserrat-Light.ttf,fonts/Montserrat/Montserrat-Light.ttf,Montserrat,881f12d067d93c910479e042f454c613d62bcca8,,,,unverified
+Montserrat-LightItalic.ttf,fonts/Montserrat/Montserrat-LightItalic.ttf,Montserrat,b2991d025119e0641ac991b035158f989398a2db,,,,unverified
+Montserrat-Medium.ttf,fonts/Montserrat/Montserrat-Medium.ttf,Montserrat,c9a39ea1600c1c25dd3366bd03744839fc3eaca3,,,,unverified
+Montserrat-MediumItalic.ttf,fonts/Montserrat/Montserrat-MediumItalic.ttf,Montserrat,086dd6e44fef0c0b10a76f52ab6ea587a3e545d2,,,,unverified
+Montserrat-Regular.ttf,fonts/Montserrat/Montserrat-Regular.ttf,Montserrat,895e220a1799765801905b9d5837e89669a9939e,,,,unverified
+Montserrat-SemiBold.ttf,fonts/Montserrat/Montserrat-SemiBold.ttf,Montserrat,161477a81e435a382c14d15644eb6ea3885ab4eb,,,,unverified
+Montserrat-SemiBoldItalic.ttf,fonts/Montserrat/Montserrat-SemiBoldItalic.ttf,Montserrat,73dc6c61e2aac9db839402e8f8a48064ee04a559,,,,unverified
+Montserrat-Thin.ttf,fonts/Montserrat/Montserrat-Thin.ttf,Montserrat,c9cf1956535e402faf6ef540c55a36ad12a77e5b,,,,unverified
+Montserrat-ThinItalic.ttf,fonts/Montserrat/Montserrat-ThinItalic.ttf,Montserrat,e6dfc05dcdc9949b0e0b0d00fd273a3ae66a4840,,,,unverified
+MonumentExtended-Bold.ttf,fonts/MonumentExtended/MonumentExtended-Bold.ttf,MonumentExtended,134fd196ea5cecf912a9db407f0d396370f5c90e,,,,unverified
+MonumentExtended-Light.ttf,fonts/MonumentExtended/MonumentExtended-Light.ttf,MonumentExtended,490a4d7e1fd92ab48fda2e95239587ad0f79955c,,,,unverified
+MonumentExtended-Regular.ttf,fonts/MonumentExtended/MonumentExtended-Regular.ttf,MonumentExtended,8c6cd9dd8f4639a5888be34e98dae491bc848040,,,,unverified
+MonumentExtended-Ultrabold.ttf,fonts/MonumentExtended/MonumentExtended-Ultrabold.ttf,MonumentExtended,554820b799230a65246d931f6dc2936558361a22,,,,unverified
+MonumentExtended-Ultralight.ttf,fonts/MonumentExtended/MonumentExtended-Ultralight.ttf,MonumentExtended,4bebbf6bf4a2f9ca91698dafd38a46bb46a5e284,,,,unverified
+NeoSansCyr-Italic.ttf,fonts/NeoSansCyr/NeoSansCyr-Italic.ttf,NeoSansCyr,393ad26b7dda5c18ccd94f9ad747b375d11efa44,,,,unverified
+NeoSansCyr-Light.ttf,fonts/NeoSansCyr/NeoSansCyr-Light.ttf,NeoSansCyr,8f2344d96bdd4ecbd0fef9ba209d42ef1b6fae51,,,,unverified
+NeoSansCyr-LightItalic.ttf,fonts/NeoSansCyr/NeoSansCyr-LightItalic.ttf,NeoSansCyr,0701d3b9bbc7312a0709e5ee4ae84f875a9df8b4,,,,unverified
+NeoSansCyr-Medium.ttf,fonts/NeoSansCyr/NeoSansCyr-Medium.ttf,NeoSansCyr,7b9fcb4b4a46fcbc9ebf028c4ceacad66b5e9b55,,,,unverified
+NeoSansCyr-Regular.ttf,fonts/NeoSansCyr/NeoSansCyr-Regular.ttf,NeoSansCyr,7e1a487aa150292d1666c31837a673d3c9ce37a7,,,,unverified
+NeoSansPro-Bold.ttf,fonts/NeoSansPro/NeoSansPro-Bold.ttf,NeoSansPro,65c6272dd1ceb9e3575440048e5ba1f70bef5698,,,,unverified
+NeoSansPro-BoldItalic.ttf,fonts/NeoSansPro/NeoSansPro-BoldItalic.ttf,NeoSansPro,6b6ff72ee70b48895e6326651ad56fcda8956ed0,,,,unverified
+NeoSansPro-Italic.ttf,fonts/NeoSansPro/NeoSansPro-Italic.ttf,NeoSansPro,4411c44de40303b29facef29c07b0c0b88983e4b,,,,unverified
+NeoSansPro-Light.ttf,fonts/NeoSansPro/NeoSansPro-Light.ttf,NeoSansPro,370b73344db1ff26b90331fb12b70c032937c6c8,,,,unverified
+NeoSansPro-LightItalic.ttf,fonts/NeoSansPro/NeoSansPro-LightItalic.ttf,NeoSansPro,c16ebc3d0187563b476f4ce359dfe7672b8c0480,,,,unverified
+NeoSansPro-Medium.ttf,fonts/NeoSansPro/NeoSansPro-Medium.ttf,NeoSansPro,77cbb25ddd9e039bed175310a36684a19c90b316,,,,unverified
+NeoSansPro-Regular.ttf,fonts/NeoSansPro/NeoSansPro-Regular.ttf,NeoSansPro,3bfbd294a14094e3bc5356edbe45a4dcd5828aa5,,,,unverified
+NeoSansPro-Ultra.ttf,fonts/NeoSansPro/NeoSansPro-Ultra.ttf,NeoSansPro,ddfd4f5bd8ba1f5bfe508046c2141a01b67edab9,,,,unverified
+PERRYGOT.TTF,fonts/PERRYGOT/PERRYGOT.TTF,PERRYGOT,ac0efac10a64f6725ba3740193356ac5e2f51240,,,,unverified
+PP Hatton Bold 700.otf,fonts/PP/PP Hatton Bold 700.otf,PP,726214400eeeac69f39ce0ed1eadae00d0ad0be9,,,,unverified
+PP Hatton Medium 500.otf,fonts/PP/PP Hatton Medium 500.otf,PP,42923883090ed4b1902689e804ae169d4a83a04e,,,,unverified
+PP Hatton Ultralight 200.otf,fonts/PP/PP Hatton Ultralight 200.otf,PP,f53e29446f1441ad519f48e693282b679b114131,,,,unverified
+PPAcma-VF.ttf,fonts/PPAcma/PPAcma-VF.ttf,PPAcma,4fabc926dfb323d4c0920dc24836793dc7d0b4a3,,,,unverified
+PPAgrandirVariable-VF.ttf,fonts/PPAgrandirVariable/PPAgrandirVariable-VF.ttf,PPAgrandirVariable,a47cbf255307f6f197decbaedb8bd25b11ac88fa,,,,unverified
+PPAir-VF.ttf,fonts/PPAir/PPAir-VF.ttf,PPAir,0a9c984fc7d709e9d233a670f79cdd15b8bb926e,,,,unverified
+PPCirka-VF.ttf,fonts/PPCirka/PPCirka-VF.ttf,PPCirka,32ea631686e230433650f0d4fdecabc6a1731caf,,,,unverified
+PPEditorialNew-VF(1).ttf,fonts/PPEditorialNew/PPEditorialNew-VF(1).ttf,PPEditorialNew,7997b07baa4a017ea4e1eed0edf2e092e48dfeb4,,,,unverified
+PPEditorialNew-VF.ttf,fonts/PPEditorialNew/PPEditorialNew-VF.ttf,PPEditorialNew,d476672ed59bef4d5dee67835ca4e888386f4174,,,,unverified
+PPEditorialOld-VF upright.ttf,fonts/PPEditorialOld/PPEditorialOld-VF upright.ttf,PPEditorialOld,b709f514204dd9ac464ae3dd391eea59a0fe4e94,,,,unverified
+PPEditorialOld-VF(1).ttf,fonts/PPEditorialOld/PPEditorialOld-VF(1).ttf,PPEditorialOld,40784847ad12e5d985c616499e48371bc33b5fa2,,,,unverified
+PPEditorialOld-VF.ttf,fonts/PPEditorialOld/PPEditorialOld-VF.ttf,PPEditorialOld,df308c6110d2d2c32a6339fbf649d2d826b837ee,,,,unverified
+PPEiko-VF.ttf,fonts/PPEiko/PPEiko-VF.ttf,PPEiko,5c7644a2a5f94f3c6032ff5a8914744e370cbbb5,,,,unverified
+PPEikoItalic-VF.ttf,fonts/PPEikoItalic/PPEikoItalic-VF.ttf,PPEikoItalic,f4336a5e44cfa7d74847073898eb23faf3d3f083,,,,unverified
+PPFormulaVariable-VF.ttf,fonts/PPFormulaVariable/PPFormulaVariable-VF.ttf,PPFormulaVariable,7e9a38466cac68abedfbe1f13f470b648e84d28c,,,,unverified
+PPFragment-VF.ttf,fonts/PPFragment/PPFragment-VF.ttf,PPFragment,cdf75f712c2fee753acb3a65b5a4b5957e475bc4,,,,unverified
+PPFraktionMono-VF.ttf,fonts/PPFraktionMono/PPFraktionMono-VF.ttf,PPFraktionMono,60e4e5fbf104a0c83d95f65e1f933c51357bbe9b,,,,unverified
+PPFraktionSans-VF.ttf,fonts/PPFraktionSans/PPFraktionSans-VF.ttf,PPFraktionSans,2f02fc6b990a8865db8d541db7874f82bdc788a4,,,,unverified
+PPFuji-VF.ttf,fonts/PPFuji/PPFuji-VF.ttf,PPFuji,f6e0805b91fc84d83a2470bd61d1c6613e463186,,,,unverified
+PPGoshaSans-VF.ttf,fonts/PPGoshaSans/PPGoshaSans-VF.ttf,PPGoshaSans,ef6316da9a105ea0353e28795025733a676c1e97,,,,unverified
+PPGrafierVariable-VF.ttf,fonts/PPGrafierVariable/PPGrafierVariable-VF.ttf,PPGrafierVariable,0d4e61ec03aabd375b94590bdb2212947b661808,,,,unverified
+PPHatton-VF.ttf,fonts/PPHatton/PPHatton-VF.ttf,PPHatton,5e41b479f435960199bf9f66360d9e81405de707,,,,unverified
+PPMigra-VF.ttf,fonts/PPMigra/PPMigra-VF.ttf,PPMigra,f9cef1df49b2b4ffc84d17b84ba02eda1d4327e7,,,,unverified
+PPMigraItalic-VF.ttf,fonts/PPMigraItalic/PPMigraItalic-VF.ttf,PPMigraItalic,d67009ec0c2e3056c9de071e849bbd491cd2a72c,,,,unverified
+PPMonumentExtended-VF.ttf,fonts/PPMonumentExtended/PPMonumentExtended-VF.ttf,PPMonumentExtended,5759747498dd2781fa3b7fd4b98d936fbda83c55,,,,unverified
+PPMori-Extralight.otf,fonts/PPMori/PPMori-Extralight.otf,PPMori,496b89ddf11b19fe5740a6ff9c5c3d8de3d89714,,,,unverified
+PPMori-ExtralightItalic.otf,fonts/PPMori/PPMori-ExtralightItalic.otf,PPMori,de7c6de3780a0c5d3bd227126459069a612d4153,,,,unverified
+PPMori-Regular.otf,fonts/PPMori/PPMori-Regular.otf,PPMori,2ba3d47d23cc683c9997523ceb3d91de296ddae4,,,,unverified
+PPMori-RegularItalic.otf,fonts/PPMori/PPMori-RegularItalic.otf,PPMori,b692996ce06937edc2900366021c34c8108f6ee6,,,,unverified
+PPMori-SemiBold.otf,fonts/PPMori/PPMori-SemiBold.otf,PPMori,26bebcbdbe9bdeda184b298d48d00fdbea7758f9,,,,unverified
+PPMori-SemiBoldItalic.otf,fonts/PPMori/PPMori-SemiBoldItalic.otf,PPMori,c712d4b4a67a5a6a580e56c4ad5b928dd4d3f11c,,,,unverified
+PPMori-VF.ttf,fonts/PPMori/PPMori-VF.ttf,PPMori,c0263ec3db07ac0fd0f323380c5473a28eb3b53e,,,,unverified
+PPNeueMachina-VF.ttf,fonts/PPNeueMachina/PPNeueMachina-VF.ttf,PPNeueMachina,7a6e82306d6466fad7ff97c9bf56da7920406230,,,,unverified
+PPNeueMontreal-VF.ttf,fonts/PPNeueMontreal/PPNeueMontreal-VF.ttf,PPNeueMontreal,01d3161d6fd8685ee234ea542f9c6121c350f6d0,,,,unverified
+PPNeueWorld-VF.ttf,fonts/PPNeueWorld/PPNeueWorld-VF.ttf,PPNeueWorld,20418255df4ba95a12ef31a7a0cfdc7f74056b1b,,,,unverified
+PPObjectSansVariable-VF.ttf,fonts/PPObjectSansVariable/PPObjectSansVariable-VF.ttf,PPObjectSansVariable,7ce80a5d2420b96622bde03d56c471a886e76e68,,,,unverified
+PPPangramSansRoundedVariable-VF.ttf,fonts/PPPangramSansRoundedVariable/PPPangramSansRoundedVariable-VF.ttf,PPPangramSansRoundedVariable,324e6de4199e86928cd388cf99d5d7c9a4e7a869,,,,unverified
+PPPangramSansVariable-VF.ttf,fonts/PPPangramSansVariable/PPPangramSansVariable-VF.ttf,PPPangramSansVariable,6581b5d33d07e0e92dd938da122d2edaed551610,,,,unverified
+PPRader-VF.ttf,fonts/PPRader/PPRader-VF.ttf,PPRader,bfae4757ae286c79a7d14a25b503ed2adae36ec5,,,,unverified
+PPRadioGrotesk-VF.ttf,fonts/PPRadioGrotesk/PPRadioGrotesk-VF.ttf,PPRadioGrotesk,ef825c497dac1ef1b7b6803e94cbac6974bf3a92,,,,unverified
+PPRightDidoneVariable-VF.ttf,fonts/PPRightDidoneVariable/PPRightDidoneVariable-VF.ttf,PPRightDidoneVariable,da5803770bd7920da3162f8a33753868c076d758,,,,unverified
+PPRightGothicVariable-VF.ttf,fonts/PPRightGothicVariable/PPRightGothicVariable-VF.ttf,PPRightGothicVariable,53e27708649db62fff5de6579ebd4b0df0eea5b6,,,,unverified
+PPRightGroteskVariable-VF.ttf,fonts/PPRightGroteskVariable/PPRightGroteskVariable-VF.ttf,PPRightGroteskVariable,7af63ff262cab36897621c356e965683406e83ff,,,,unverified
+PPRightSansVariable-VF.ttf,fonts/PPRightSansVariable/PPRightSansVariable-VF.ttf,PPRightSansVariable,5ed4398d7d21050a4d24f8fdd9da023f4c4a9408,,,,unverified
+PPRightSerifVariable-VF.ttf,fonts/PPRightSerifVariable/PPRightSerifVariable-VF.ttf,PPRightSerifVariable,9fc65c01bb1ef148138928f332e4aaf8e3149072,,,,unverified
+PPRightSlabVariable-VF.ttf,fonts/PPRightSlabVariable/PPRightSlabVariable-VF.ttf,PPRightSlabVariable,10d6159d91838e9b3a95f477383f7040887fc6ab,,,,unverified
+PPSupplyMono-VF.ttf,fonts/PPSupplyMono/PPSupplyMono-VF.ttf,PPSupplyMono,b23476607663485ea276ccdc7a2cd6902766ff47,,,,unverified
+PPSupplySans-VF.ttf,fonts/PPSupplySans/PPSupplySans-VF.ttf,PPSupplySans,6e275424d02dffde861818608dd9b2900b9f459c,,,,unverified
+PPTelegraf-VF.ttf,fonts/PPTelegraf/PPTelegraf-VF.ttf,PPTelegraf,72a737152a35851016d530d182cfab67a738e01a,,,,unverified
+PPWriter-VF(1).ttf,fonts/PPWriter/PPWriter-VF(1).ttf,PPWriter,0bdb36fc997babf0800806f9d2723f8652a822be,,,,unverified
+PPWriter-VF.ttf,fonts/PPWriter/PPWriter-VF.ttf,PPWriter,c3bead3a6b2a71d7cc50fb913aefae6145a17938,,,,unverified
+Proxima Nova Alt Black It.otf,fonts/ProximaNova/Proxima Nova Alt Black It.otf,ProximaNova,b1e109dc1d91b2b495a38709ed1a6b16eb7de238,,,,unverified
+Proxima Nova Alt Black.otf,fonts/ProximaNova/Proxima Nova Alt Black.otf,ProximaNova,08fb1d59fbc5960564e4d9c53cc796e16b0a4b31,,,,unverified
+Proxima Nova Alt Bold It.otf,fonts/ProximaNova/Proxima Nova Alt Bold It.otf,ProximaNova,c4f277cebea2fe6c732d39234d83ceb6bd00a4c1,,,,unverified
+Proxima Nova Alt Bold.otf,fonts/ProximaNova/Proxima Nova Alt Bold.otf,ProximaNova,caba3c0123864f2c33c70da39859ecda28864dc2,,,,unverified
+Proxima Nova Alt Cond Black It.otf,fonts/ProximaNova/Proxima Nova Alt Cond Black It.otf,ProximaNova,88bb43c60eae0716625839dde578d06fc3d4744a,,,,unverified
+Proxima Nova Alt Cond Black.otf,fonts/ProximaNova/Proxima Nova Alt Cond Black.otf,ProximaNova,e52d1289b46d3189b5e139aaea8309bfd8aed7a9,,,,unverified
+Proxima Nova Alt Cond Bold It.otf,fonts/ProximaNova/Proxima Nova Alt Cond Bold It.otf,ProximaNova,22bca49fbf7ff7a21ebe28f37842f12cc302af0e,,,,unverified
+Proxima Nova Alt Cond Bold.otf,fonts/ProximaNova/Proxima Nova Alt Cond Bold.otf,ProximaNova,43abddaa5f9d03f1d96cb4315e1aa3e1e0f84c45,,,,unverified
+Proxima Nova Alt Cond Light It.otf,fonts/ProximaNova/Proxima Nova Alt Cond Light It.otf,ProximaNova,4627adcbebb377c7d4281514494a80958b0c02da,,,,unverified
+Proxima Nova Alt Cond Light.otf,fonts/ProximaNova/Proxima Nova Alt Cond Light.otf,ProximaNova,da0988c58d6fb4f70de4bb2ee3ba6836d3d57e35,,,,unverified
+Proxima Nova Alt Cond Reg It.otf,fonts/ProximaNova/Proxima Nova Alt Cond Reg It.otf,ProximaNova,89d4f7135230666586bc31a60e3216bfd5ce3708,,,,unverified
+Proxima Nova Alt Cond Reg.otf,fonts/ProximaNova/Proxima Nova Alt Cond Reg.otf,ProximaNova,17f4228c24a8933713283ef363c0aca2510eb3fd,,,,unverified
+Proxima Nova Alt Light It.otf,fonts/ProximaNova/Proxima Nova Alt Light It.otf,ProximaNova,df0e533f2b746cac16d34a39f7a7a78bf6317125,,,,unverified
+Proxima Nova Alt Light.otf,fonts/ProximaNova/Proxima Nova Alt Light.otf,ProximaNova,1a7765efe22f3d1b3cc22ad4b21081e42b3a388b,,,,unverified
+Proxima Nova Alt Reg It.otf,fonts/ProximaNova/Proxima Nova Alt Reg It.otf,ProximaNova,a59d33b297ea3ef0aa5e410a1a23c637c9965c53,,,,unverified
+Proxima Nova Alt Reg.otf,fonts/ProximaNova/Proxima Nova Alt Reg.otf,ProximaNova,1c7d6c8404b246d5a96990032f6313578430db6a,,,,unverified
+Proxima Nova Black It.otf,fonts/ProximaNova/Proxima Nova Black It.otf,ProximaNova,938248fdc864e91a92a4df8333b0e37b4742ee59,,,,unverified
+Proxima Nova Black.otf,fonts/ProximaNova/Proxima Nova Black.otf,ProximaNova,e6f06042d369a5379ec40822dc0621a7e4e26df4,,,,unverified
+Proxima Nova Bold It.otf,fonts/ProximaNova/Proxima Nova Bold It.otf,ProximaNova,4a76ce8974edb8101dc347c7862ee8332f1559a2,,,,unverified
+Proxima Nova Bold.otf,fonts/ProximaNova/Proxima Nova Bold.otf,ProximaNova,9f87fafa92818900dcfeef21b7556df964acc840,,,,unverified
+Proxima Nova Cond Black It.otf,fonts/ProximaNova/Proxima Nova Cond Black It.otf,ProximaNova,eea9afb0d25bb812b5d414ace4f9994b2ad222f1,,,,unverified
+Proxima Nova Cond Black.otf,fonts/ProximaNova/Proxima Nova Cond Black.otf,ProximaNova,a543208e9e700730314f3237658a61367861e46b,,,,unverified
+Proxima Nova Cond Bold It.otf,fonts/ProximaNova/Proxima Nova Cond Bold It.otf,ProximaNova,d0de1e0239b3b108f5fb44767a3e195963d73287,,,,unverified
+Proxima Nova Cond Bold.otf,fonts/ProximaNova/Proxima Nova Cond Bold.otf,ProximaNova,d826302a98ae4dbde1172fc8db4acbb61bb3a716,,,,unverified
+Proxima Nova Cond Light It.otf,fonts/ProximaNova/Proxima Nova Cond Light It.otf,ProximaNova,63c44299f141ddd0fb2ef8c22d37f79128506a81,,,,unverified
+Proxima Nova Cond Light.otf,fonts/ProximaNova/Proxima Nova Cond Light.otf,ProximaNova,dd2418162b098667f3f5daa4e64c5f3d20988c6c,,,,unverified
+Proxima Nova Cond Reg It.otf,fonts/ProximaNova/Proxima Nova Cond Reg It.otf,ProximaNova,8953e0b1d0a8f4fabaa9242e08fdf688c5de4a67,,,,unverified
+Proxima Nova Cond Reg.otf,fonts/ProximaNova/Proxima Nova Cond Reg.otf,ProximaNova,c321df12e8776c33acdfa4627c0da609aa8f7d68,,,,unverified
+Proxima Nova Light It.otf,fonts/ProximaNova/Proxima Nova Light It.otf,ProximaNova,d79041bb5bc13ff7ceae78ae22df65acf6426420,,,,unverified
+Proxima Nova Light.otf,fonts/ProximaNova/Proxima Nova Light.otf,ProximaNova,a53604b2d73bf50fe3aa043bb6a4f9f3922726b9,,,,unverified
+Proxima Nova Reg It.otf,fonts/ProximaNova/Proxima Nova Reg It.otf,ProximaNova,436da62dd600399812d7531c409f08c23b4a3f20,,,,unverified
+Proxima Nova Reg.otf,fonts/ProximaNova/Proxima Nova Reg.otf,ProximaNova,b93022b5ec8dd29ad8e4b2bbb90d256f42c9d4a4,,,,unverified
+Proxima Nova ScOsf Black It.otf,fonts/ProximaNova/Proxima Nova ScOsf Black It.otf,ProximaNova,403ea06c081271059f6d8d21d3bdc255473cb9e8,,,,unverified
+Proxima Nova ScOsf Black.otf,fonts/ProximaNova/Proxima Nova ScOsf Black.otf,ProximaNova,03cf02a5086dfcd052d343420bd16f9c9fd506cc,,,,unverified
+Proxima Nova ScOsf Bold It.otf,fonts/ProximaNova/Proxima Nova ScOsf Bold It.otf,ProximaNova,2bbb16567291fe21a02d9a2f9f2d00f1cb4a3f90,,,,unverified
+Proxima Nova ScOsf Bold.otf,fonts/ProximaNova/Proxima Nova ScOsf Bold.otf,ProximaNova,4b95e3bfbba981fa5aeb3e7c5431eea199dddd05,,,,unverified
+Proxima Nova ScOsf Cond Black It.otf,fonts/ProximaNova/Proxima Nova ScOsf Cond Black It.otf,ProximaNova,ad064a856eba3b14226dbd1e290094cc00bd357a,,,,unverified
+Proxima Nova ScOsf Cond Black.otf,fonts/ProximaNova/Proxima Nova ScOsf Cond Black.otf,ProximaNova,605b6c6c882de784822d11d81a74df7a9cef4048,,,,unverified
+Proxima Nova ScOsf Cond Bold It.otf,fonts/ProximaNova/Proxima Nova ScOsf Cond Bold It.otf,ProximaNova,b7680412d7d121f4d4b8e1febfcd20c5bf04b2e6,,,,unverified
+Proxima Nova ScOsf Cond Bold.otf,fonts/ProximaNova/Proxima Nova ScOsf Cond Bold.otf,ProximaNova,9fc7a34e0175d4fefb5d2bfba07edca588b9556d,,,,unverified
+Proxima Nova ScOsf Cond Light It.otf,fonts/ProximaNova/Proxima Nova ScOsf Cond Light It.otf,ProximaNova,6bc7b4152b10ce7467cf206af6a08085c79f278d,,,,unverified
+Proxima Nova ScOsf Cond Light.otf,fonts/ProximaNova/Proxima Nova ScOsf Cond Light.otf,ProximaNova,d7ac83cc216352bb9def04d1132cffb05b585992,,,,unverified
+Proxima Nova ScOsf Cond Reg It.otf,fonts/ProximaNova/Proxima Nova ScOsf Cond Reg It.otf,ProximaNova,17d8c5e1a77f143d2c6d8d05c95a7e80ad572a97,,,,unverified
+Proxima Nova ScOsf Cond Reg.otf,fonts/ProximaNova/Proxima Nova ScOsf Cond Reg.otf,ProximaNova,2da2464febb81be571c42a0399248fce6b79efe8,,,,unverified
+Proxima Nova ScOsf Light It.otf,fonts/ProximaNova/Proxima Nova ScOsf Light It.otf,ProximaNova,88a88ef8d3895456347e1fc8e6537297e46ad13d,,,,unverified
+Proxima Nova ScOsf Light.otf,fonts/ProximaNova/Proxima Nova ScOsf Light.otf,ProximaNova,99dfd1bedf043d0307787680c5d4bc345b089ae0,,,,unverified
+Proxima Nova ScOsf Reg It.otf,fonts/ProximaNova/Proxima Nova ScOsf Reg It.otf,ProximaNova,0a2d40406aae30d3bfae95d6345aed1dd03a7701,,,,unverified
+Proxima Nova ScOsf Reg.otf,fonts/ProximaNova/Proxima Nova ScOsf Reg.otf,ProximaNova,59b6b004026057e2e6dd37cf42ce495dd3122301,,,,unverified
+ProximaNova-Bold.ttf,fonts/ProximaNova/ProximaNova-Bold.ttf,ProximaNova,85de4f9752a837b74765283c21d94dfe32191b36,,,,unverified
+ProximaNova-BoldIt.ttf,fonts/ProximaNova/ProximaNova-BoldIt.ttf,ProximaNova,f7c136322710ef24d94b5397b5ef75908b1ee7cb,,,,unverified
+ProximaNova-Light.ttf,fonts/ProximaNova/ProximaNova-Light.ttf,ProximaNova,a2f4d5863ead5c84771bb38fe0e6aff6f412350e,,,,unverified
+ProximaNova-LightIt.ttf,fonts/ProximaNova/ProximaNova-LightIt.ttf,ProximaNova,b46959aadd53cba0c8b41809930b0bf2fd0f5058,,,,unverified
+ProximaNova-Regular.ttf,fonts/ProximaNova/ProximaNova-Regular.ttf,ProximaNova,6a331558ce07d073d3ede9b54eb5f8e99d7a6ca8,,,,unverified
+ProximaNova-RegularIt.ttf,fonts/ProximaNova/ProximaNova-RegularIt.ttf,ProximaNova,5b2263a693d977c0e9eaf98dc4c4d4e6ffe6a205,,,,unverified
+Recoleta Alt Black.otf,fonts/Recoleta/Recoleta Alt Black.otf,Recoleta,3421955ce81cc43c78379aa999588c8c4d8d23cb,,,,unverified
+Recoleta Alt Bold.otf,fonts/Recoleta/Recoleta Alt Bold.otf,Recoleta,32cd8a14604ff854e077926df6dd4a0727841209,,,,unverified
+Recoleta Alt Light.otf,fonts/Recoleta/Recoleta Alt Light.otf,Recoleta,17d48e8851e9c2d1c4f39515ae97916a95427150,,,,unverified
+Recoleta Alt Medium.otf,fonts/Recoleta/Recoleta Alt Medium.otf,Recoleta,ca47a2edd86f932222a88997a8896ee956a8757b,,,,unverified
+Recoleta Alt Regular.otf,fonts/Recoleta/Recoleta Alt Regular.otf,Recoleta,33e60f2a0f4c70462e1c502f804c7729b9f9c847,,,,unverified
+Recoleta Alt SemiBold.otf,fonts/Recoleta/Recoleta Alt SemiBold.otf,Recoleta,92558c86e1c7cb1647aa9ddc3e512811a02afb5c,,,,unverified
+Recoleta Alt Thin.otf,fonts/Recoleta/Recoleta Alt Thin.otf,Recoleta,8624bcb16006911c796945d1b1381ec521cf3efd,,,,unverified
+Recoleta Black.otf,fonts/Recoleta/Recoleta Black.otf,Recoleta,24eede3b8a5df8b5d7a6ca3cc196767ca90fdd6a,,,,unverified
+Recoleta Bold.otf,fonts/Recoleta/Recoleta Bold.otf,Recoleta,f29ed628b30918fe014e64eda18294d64739c6db,,,,unverified
+Recoleta Light.otf,fonts/Recoleta/Recoleta Light.otf,Recoleta,8aac618a1710ef035f8ae110707b66a10776fb78,,,,unverified
+Recoleta Medium.otf,fonts/Recoleta/Recoleta Medium.otf,Recoleta,684d614c744106d1b84a33146e5a4996e40b57dc,,,,unverified
+Recoleta Regular.otf,fonts/Recoleta/Recoleta Regular.otf,Recoleta,a6b89c9d3cbb76395db5f7fc3a4fb6527aa64f6e,,,,unverified
+Recoleta SemiBold.otf,fonts/Recoleta/Recoleta SemiBold.otf,Recoleta,acfb8dc60bf6ebdd731467708adfa8959477f72d,,,,unverified
+Recoleta Thin.otf,fonts/Recoleta/Recoleta Thin.otf,Recoleta,b86918627c98c7e88fd588eebec25ee548250355,,,,unverified
+Rumble Brave.otf,fonts/Rumble/Rumble Brave.otf,Rumble,177fdbd4bf2962546711f843f32cf8909f6d1dd8,,,,unverified
+Runway Regular.ttf,fonts/Runway/Runway Regular.ttf,Runway,84526e44b72ea4f0a540863de6d1753523bcf110,,,,unverified
+SharpGrotesk-Black05.otf,fonts/SharpGrotesk/SharpGrotesk-Black05.otf,SharpGrotesk,7c9f2e04e6f0fd8f161b3c5c4fa155739b23955f,,,,unverified
+SharpGrotesk-Black10.otf,fonts/SharpGrotesk/SharpGrotesk-Black10.otf,SharpGrotesk,90d703d0531fd0d437acbb956fe4e16009e2187e,,,,unverified
+SharpGrotesk-Black15.otf,fonts/SharpGrotesk/SharpGrotesk-Black15.otf,SharpGrotesk,c9dd2c1cb0420484ef855ae9d8be52074e8afce5,,,,unverified
+SharpGrotesk-Black20.otf,fonts/SharpGrotesk/SharpGrotesk-Black20.otf,SharpGrotesk,af50ee4c7b7adcf138ec5bf092952c6447331cb2,,,,unverified
+SharpGrotesk-Black25.otf,fonts/SharpGrotesk/SharpGrotesk-Black25.otf,SharpGrotesk,5c85c9745ded6a9a054ff0fe2e5b81334b2e5b7c,,,,unverified
+SharpGrotesk-BlackItalic05.otf,fonts/SharpGrotesk/SharpGrotesk-BlackItalic05.otf,SharpGrotesk,37fe10b03f6900bbd7b851fc5ca6efb9328a0cb6,,,,unverified
+SharpGrotesk-BlackItalic10.otf,fonts/SharpGrotesk/SharpGrotesk-BlackItalic10.otf,SharpGrotesk,4fe63908084c1d4c7543a8523ca939e33f471c6d,,,,unverified
+SharpGrotesk-BlackItalic15.otf,fonts/SharpGrotesk/SharpGrotesk-BlackItalic15.otf,SharpGrotesk,93cd122d003f3044610ec4140372ecebd44e8e97,,,,unverified
+SharpGrotesk-BlackItalic20.otf,fonts/SharpGrotesk/SharpGrotesk-BlackItalic20.otf,SharpGrotesk,e06c6918d1526d4424967df8f41dd74ae97afe2b,,,,unverified
+SharpGrotesk-Bold05.otf,fonts/SharpGrotesk/SharpGrotesk-Bold05.otf,SharpGrotesk,eb3a4f9f1a8f2d8efc7e475b3d179d14f0c496ac,,,,unverified
+SharpGrotesk-Bold10.otf,fonts/SharpGrotesk/SharpGrotesk-Bold10.otf,SharpGrotesk,6a0ec88d17144a663936ec86d71d9f3942791328,,,,unverified
+SharpGrotesk-Bold15.otf,fonts/SharpGrotesk/SharpGrotesk-Bold15.otf,SharpGrotesk,32a98d49045733096825c449cd35c8ce721a8575,,,,unverified
+SharpGrotesk-Bold20.otf,fonts/SharpGrotesk/SharpGrotesk-Bold20.otf,SharpGrotesk,274730c29badc9ae15c4accd2d93acac7b586966,,,,unverified
+SharpGrotesk-Bold25.otf,fonts/SharpGrotesk/SharpGrotesk-Bold25.otf,SharpGrotesk,345ab9cf14cfd45e4c788560ca0c8d54b1dc4f0a,,,,unverified
+SharpGrotesk-BoldItalic05.otf,fonts/SharpGrotesk/SharpGrotesk-BoldItalic05.otf,SharpGrotesk,49de779828a69824e87939c0cfc83d38ae6b7c16,,,,unverified
+SharpGrotesk-BoldItalic10.otf,fonts/SharpGrotesk/SharpGrotesk-BoldItalic10.otf,SharpGrotesk,69a3b6127a9e13e528881540c580fd868d4289b2,,,,unverified
+SharpGrotesk-BoldItalic15.otf,fonts/SharpGrotesk/SharpGrotesk-BoldItalic15.otf,SharpGrotesk,b9c523c2e588ac7908536d9fcdceb05dba2820ac,,,,unverified
+SharpGrotesk-BoldItalic20.otf,fonts/SharpGrotesk/SharpGrotesk-BoldItalic20.otf,SharpGrotesk,f0e883dcab95c196f11b723d6350e2b05003e794,,,,unverified
+SharpGrotesk-Book05.otf,fonts/SharpGrotesk/SharpGrotesk-Book05.otf,SharpGrotesk,f37a11b3c6b14bd827b2538f7ba459d1cbf562f7,,,,unverified
+SharpGrotesk-Book10.otf,fonts/SharpGrotesk/SharpGrotesk-Book10.otf,SharpGrotesk,f54c88b194b5c92c90887c9adabf448e42416489,,,,unverified
+SharpGrotesk-Book15.otf,fonts/SharpGrotesk/SharpGrotesk-Book15.otf,SharpGrotesk,70a5fdac5475fceb2df00cef16920bc650ee44ce,,,,unverified
+SharpGrotesk-Book20.otf,fonts/SharpGrotesk/SharpGrotesk-Book20.otf,SharpGrotesk,bfcb652a2a300a2da42301f6ce7a2229bd16170d,,,,unverified
+SharpGrotesk-Book25.otf,fonts/SharpGrotesk/SharpGrotesk-Book25.otf,SharpGrotesk,d7b5c126888e6166d309ab788b187ee79e3e10a0,,,,unverified
+SharpGrotesk-BookItalic05.otf,fonts/SharpGrotesk/SharpGrotesk-BookItalic05.otf,SharpGrotesk,31a278a2d3ba75a62cac9a0f5bc1558a111472e8,,,,unverified
+SharpGrotesk-BookItalic10.otf,fonts/SharpGrotesk/SharpGrotesk-BookItalic10.otf,SharpGrotesk,f09c3b734bfe6510854ac28eb21c27db2f4ef43e,,,,unverified
+SharpGrotesk-BookItalic15.otf,fonts/SharpGrotesk/SharpGrotesk-BookItalic15.otf,SharpGrotesk,64627e39c39a74404a7da4f8db83516491e6cce8,,,,unverified
+SharpGrotesk-BookItalic20.otf,fonts/SharpGrotesk/SharpGrotesk-BookItalic20.otf,SharpGrotesk,f29a5889e4255dbcbd5d7aedd0976d404934c618,,,,unverified
+SharpGrotesk-Light05.otf,fonts/SharpGrotesk/SharpGrotesk-Light05.otf,SharpGrotesk,8e5c545af121e2120ab7ce306dad9c31548e1134,,,,unverified
+SharpGrotesk-Light10.otf,fonts/SharpGrotesk/SharpGrotesk-Light10.otf,SharpGrotesk,11075991ea358403f8d604b747a8f8acb4cbc263,,,,unverified
+SharpGrotesk-Light15.otf,fonts/SharpGrotesk/SharpGrotesk-Light15.otf,SharpGrotesk,3d9b155c28b5bb7b0233e69ae30657cfa8dda1cf,,,,unverified
+SharpGrotesk-Light20.otf,fonts/SharpGrotesk/SharpGrotesk-Light20.otf,SharpGrotesk,a46aaf42e149a54daf93d54a5b219608e5734824,,,,unverified
+SharpGrotesk-Light25.otf,fonts/SharpGrotesk/SharpGrotesk-Light25.otf,SharpGrotesk,53eb8642e0ccc659a1d6211a754c5f7717334d77,,,,unverified
+SharpGrotesk-LightItalic05.otf,fonts/SharpGrotesk/SharpGrotesk-LightItalic05.otf,SharpGrotesk,a87d2eb27ea3b3e172eb9a2fc3b04befbfa5318b,,,,unverified
+SharpGrotesk-LightItalic10.otf,fonts/SharpGrotesk/SharpGrotesk-LightItalic10.otf,SharpGrotesk,5cfaa82001c8ff5930098454cd1f0a69d16eca41,,,,unverified
+SharpGrotesk-LightItalic15.otf,fonts/SharpGrotesk/SharpGrotesk-LightItalic15.otf,SharpGrotesk,b813974d8e77a3f19be63c2f9df23125a6e05d57,,,,unverified
+SharpGrotesk-LightItalic20.otf,fonts/SharpGrotesk/SharpGrotesk-LightItalic20.otf,SharpGrotesk,b70bba6c7d2795e4e6e2ed1ef4f339ebf93c871b,,,,unverified
+SharpGrotesk-Medium05.otf,fonts/SharpGrotesk/SharpGrotesk-Medium05.otf,SharpGrotesk,8ee2a5502b1eed3191ee0e60af2304bd5c8ea8b1,,,,unverified
+SharpGrotesk-Medium10.otf,fonts/SharpGrotesk/SharpGrotesk-Medium10.otf,SharpGrotesk,de08ab8ff817d5251c2ac573430eaabebb275435,,,,unverified
+SharpGrotesk-Medium15.otf,fonts/SharpGrotesk/SharpGrotesk-Medium15.otf,SharpGrotesk,c8a4317a4c34fc50f18865390a02ee1543834ee0,,,,unverified
+SharpGrotesk-Medium20.otf,fonts/SharpGrotesk/SharpGrotesk-Medium20.otf,SharpGrotesk,c02a6b785ce3247cbc7e50fad29e8c7d3f63873f,,,,unverified
+SharpGrotesk-Medium25.otf,fonts/SharpGrotesk/SharpGrotesk-Medium25.otf,SharpGrotesk,ac15ad8fc796bf65008e9cdf121756d8b4dc1e4f,,,,unverified
+SharpGrotesk-MediumItalic05.otf,fonts/SharpGrotesk/SharpGrotesk-MediumItalic05.otf,SharpGrotesk,ef7d9341a25dcc1a4c207a06c624264c2e58b078,,,,unverified
+SharpGrotesk-MediumItalic10.otf,fonts/SharpGrotesk/SharpGrotesk-MediumItalic10.otf,SharpGrotesk,8ef35df582e75f825be82686d70a7b56603d2ba2,,,,unverified
+SharpGrotesk-MediumItalic15.otf,fonts/SharpGrotesk/SharpGrotesk-MediumItalic15.otf,SharpGrotesk,f7b4eb2c9e68b0230c0eff317e6c28b5fc101d1d,,,,unverified
+SharpGrotesk-MediumItalic20.otf,fonts/SharpGrotesk/SharpGrotesk-MediumItalic20.otf,SharpGrotesk,ea5db708b7c4da232cce1715fa4382ad5e14610e,,,,unverified
+SharpGrotesk-SemiBold05.otf,fonts/SharpGrotesk/SharpGrotesk-SemiBold05.otf,SharpGrotesk,0b3e3919bcacf5974756b926b667472ae1f5f005,,,,unverified
+SharpGrotesk-SemiBold10.otf,fonts/SharpGrotesk/SharpGrotesk-SemiBold10.otf,SharpGrotesk,c63db98b8cf61012911fce4abfc13d74d9e3f79d,,,,unverified
+SharpGrotesk-SemiBold15.otf,fonts/SharpGrotesk/SharpGrotesk-SemiBold15.otf,SharpGrotesk,329f1580ce90d78dd2445b66ff4ab27251ca5ae1,,,,unverified
+SharpGrotesk-SemiBold20.otf,fonts/SharpGrotesk/SharpGrotesk-SemiBold20.otf,SharpGrotesk,e38c83a6a57e37a27466808a92e7d7a9737e3b45,,,,unverified
+SharpGrotesk-SemiBold25.otf,fonts/SharpGrotesk/SharpGrotesk-SemiBold25.otf,SharpGrotesk,4ccdd93f41aa7a64058e48cb5bb1232ee4a93389,,,,unverified
+SharpGrotesk-SemiBoldItalic05.otf,fonts/SharpGrotesk/SharpGrotesk-SemiBoldItalic05.otf,SharpGrotesk,c9ea76045f4e1abfbd5087c87e5c3b1b7a9351d7,,,,unverified
+SharpGrotesk-SemiBoldItalic10.otf,fonts/SharpGrotesk/SharpGrotesk-SemiBoldItalic10.otf,SharpGrotesk,dab5f00bc6e67bbfe54536b325dcd8f0e56b0de0,,,,unverified
+SharpGrotesk-SemiBoldItalic15.otf,fonts/SharpGrotesk/SharpGrotesk-SemiBoldItalic15.otf,SharpGrotesk,3433edb51991cfee63a1a324ddb3c5560907b01b,,,,unverified
+SharpGrotesk-SemiBoldItalic20.otf,fonts/SharpGrotesk/SharpGrotesk-SemiBoldItalic20.otf,SharpGrotesk,45e0c22592fe4941c20215877b02d682bb5dcf62,,,,unverified
+SharpGrotesk-Thin05.otf,fonts/SharpGrotesk/SharpGrotesk-Thin05.otf,SharpGrotesk,d64c7656b3dda0054ac364da1900a371f8f7b6ba,,,,unverified
+SharpGrotesk-Thin10.otf,fonts/SharpGrotesk/SharpGrotesk-Thin10.otf,SharpGrotesk,8ae8e58c8a373f80214592c85d65cb6a9356ff55,,,,unverified
+SharpGrotesk-Thin15.otf,fonts/SharpGrotesk/SharpGrotesk-Thin15.otf,SharpGrotesk,7ba1f81971e29c5722d6de7f45a9a92cf23230f1,,,,unverified
+SharpGrotesk-Thin20.otf,fonts/SharpGrotesk/SharpGrotesk-Thin20.otf,SharpGrotesk,5b01396e547052e7bddef1363243e2891ec697ea,,,,unverified
+SharpGrotesk-Thin25.otf,fonts/SharpGrotesk/SharpGrotesk-Thin25.otf,SharpGrotesk,1efaa176546e1e84c5c9bb942cab7a80d824ced7,,,,unverified
+SharpGrotesk-ThinItalic05.otf,fonts/SharpGrotesk/SharpGrotesk-ThinItalic05.otf,SharpGrotesk,290225e9f107aa01949302e3f13ff6307dbb301e,,,,unverified
+SharpGrotesk-ThinItalic10.otf,fonts/SharpGrotesk/SharpGrotesk-ThinItalic10.otf,SharpGrotesk,b25d2d385589a320cebfd5015bc86d482bc95843,,,,unverified
+SharpGrotesk-ThinItalic15.otf,fonts/SharpGrotesk/SharpGrotesk-ThinItalic15.otf,SharpGrotesk,0d1f339339bda7b93cc7080b3592908f6ddc80d2,,,,unverified
+SharpGrotesk-ThinItalic20.otf,fonts/SharpGrotesk/SharpGrotesk-ThinItalic20.otf,SharpGrotesk,590c781bf1f410af11f42de1a7460801afc978b9,,,,unverified
+Skriva-Bold.ttf,fonts/Skriva/Skriva-Bold.ttf,Skriva,c4ec5915dcb2b7ae0360543b5135e24f9f1db2e1,,,,unverified
+Skriva-Inky.ttf,fonts/Skriva/Skriva-Inky.ttf,Skriva,6c34170f2a0389a321af28627b2656c0c61b6ed1,,,,unverified
+Skriva-Light.ttf,fonts/Skriva/Skriva-Light.ttf,Skriva,6123c588568f42e299907e38e7445efd0d4d199e,,,,unverified
+Skriva-Regular.ttf,fonts/Skriva/Skriva-Regular.ttf,Skriva,9f7f9a9e1890c21cb657af8316abfa203cf9e74f,,,,unverified
+SpaceGrotesk-VariableFont_wght.ttf,fonts/SpaceGrotesk/SpaceGrotesk-VariableFont_wght.ttf,SpaceGrotesk,2c6cc59a28f5de26b15b3fb63285363585e7fbe2,,,,unverified
+Stencil CE.ttf,fonts/Stencil/Stencil CE.ttf,Stencil,a8c857564a127c08f0bdd453dfff6bb5209c2f00,,,,unverified
+UnitedSansReg-Black.otf,fonts/UnitedSansReg/UnitedSansReg-Black.otf,UnitedSansReg,40e54148dd4ffa958cf6dfc941a14d7cfd0f8ed4,,,,unverified
+UnitedSansReg-Bold.otf,fonts/UnitedSansReg/UnitedSansReg-Bold.otf,UnitedSansReg,5cc1ab2b352538a914d2f4491eaec0b33baed043,,,,unverified
+UnitedSansReg-Heavy.otf,fonts/UnitedSansReg/UnitedSansReg-Heavy.otf,UnitedSansReg,87bf56959b53f0cdb93a53d13805e4121499c5e7,,,,unverified
+UnitedSansReg-Light.otf,fonts/UnitedSansReg/UnitedSansReg-Light.otf,UnitedSansReg,a2e855b8133e987da7d7ce384f80c05b04a991ea,,,,unverified
+UnitedSansReg-Medium.otf,fonts/UnitedSansReg/UnitedSansReg-Medium.otf,UnitedSansReg,68117fee6bca7a504435aa7d7076e3ab57bfef5b,,,,unverified
+University.otf,fonts/University/University.otf,University,4e1c0662f73c37f1e1d19454d7ed155437f9ec7d,,,,unverified
+ghosthey-Italic.otf,fonts/ghosthey/ghosthey-Italic.otf,ghosthey,d1e94f871296420c7c0f21da77f70f435241c842,,,,unverified
+ghosthey-Regular.otf,fonts/ghosthey/ghosthey-Regular.otf,ghosthey,20671aeb0872654c3c027eceb655e9ece6433d57,,,,unverified
+malibu-ring.ttf,fonts/malibu/malibu-ring.ttf,malibu,0e070485d9da1c60756fe88e9ab643fd6c37a9de,,,,unverified
+malibu-slant.ttf,fonts/malibu/malibu-slant.ttf,malibu,ccf791bd1cc28aa3336fa3086fc78fdad1ba836d,,,,unverified
+tt0205m_.ttf,fonts/tt0205m/tt0205m_.ttf,tt0205m,3dc05d94943fffeab2995fc6c632bcce8bc14f44,,,,unverified
+unicode.futurab.ttf,fonts/unicodefuturab/unicode.futurab.ttf,unicodefuturab,0c18339e17bf5395caab225bb87a3808e1be938e,,,,unverified
+unicode.futurabb.ttf,fonts/unicodefuturabb/unicode.futurabb.ttf,unicodefuturabb,68422b1095ad4c9363f9e4b391ab0ec288a344fb,,,,unverified
+united-2.ttf,fonts/united/united-2.ttf,united,0f908cedb447adc02f2904ecb7a5fc524cf071b3,,,,unverified
