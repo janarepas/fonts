@@ -45,11 +45,13 @@ to personal use.
 Licenses must be verified individually.
 Do not redistribute fonts without permission.
 
-## Notes
+## Naming and inventory
 
-- 768 font files
-- 454 OTF
-- 314 TTF
-- 11 known exact duplicate pairs
+Fonts are grouped by readable family names. Filenames follow internal PostScript names; variable fonts use a --VF suffix. Distinct copies with colliding names retain a SHA256 suffix. Selected checksum fields and internal names/style metadata were repaired locally; originals are preserved in a separate backup.
 
-All original font files are preserved.
+- 857 font files in 104 family folders
+- 396 OTF, 460 TTF, 1 TTC (2 faces)
+- Trial fonts and Rasley Heights PERSONAL USE excluded from the collection
+- fonts-manifest.csv tracks the current paths and original Git blob identities
+
+Licensing and source fields remain unverified until supporting documents are checked.
