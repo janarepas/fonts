@@ -7,7 +7,6 @@ Personal macOS font collection.
 - fonts/ - Fonts organized by family
 - scripts/ - Shell installer
 - licenses/ - License information
-- reports/ - Audit reports
 - fonts-manifest.csv - Font inventory
 - .gitignore - Ignored files
 
@@ -39,8 +38,9 @@ Do not redistribute fonts without permission.
 
 Fonts are grouped by readable family names. Filenames follow internal PostScript names; variable fonts use a --VF suffix. Distinct copies with colliding names retain a SHA256 suffix. Selected checksum fields and internal names/style metadata were repaired locally; originals are preserved in a separate backup.
 
-- 857 font files in 104 family folders
-- 396 OTF, 460 TTF, 1 TTC (2 faces)
+- 846 font files in 104 family folders
+- 385 OTF, 460 TTF, 1 TTC (2 faces)
+- No exact duplicate font files
 - Trial fonts and Rasley Heights PERSONAL USE excluded from the collection
 - fonts-manifest.csv tracks the current paths and original Git blob identities
 
