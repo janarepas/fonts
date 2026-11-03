@@ -21,7 +21,8 @@ Long labels are shortened in cells; the highlighted name appears above the grid.
 (Regular, Bold, Italic, etc.). Space toggles a single variant; at family level
 it toggles the whole family. Enter inside the variant list or `b` returns to families.
 `/` opens text input (navigation shortcuts are inactive until Enter) and searches the current list, `r` resets search, and `q` cancels all changes.
-Selections are preserved across family navigation and search.
+Selections are preserved across family navigation and search. Returning from a
+family restores the previous family cursor and search query.
 Press `s` from either list to review all pending changes, then press `Y` to apply
 or `N` to cancel (case insensitive; no Enter required). No changes are made merely
 by entering or leaving a family. The checkbox reflects the desired installation
@@ -75,3 +76,5 @@ Font state is read at startup, then updated in memory when toggled. Resizing the
 terminal triggers a layout refresh. Ordinary arrow navigation does not clear or
 reload the screen.
 
+
+The review screen also supports Left/Right to page through pending changes.

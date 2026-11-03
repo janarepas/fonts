@@ -80,6 +80,7 @@ variant_menu() {
   }
   dimensions_dirty=1; cache_key=''; pending=0
   trap 'dimensions_dirty=1' WINCH
+  local family_cursor=0 family_query=""
   view=families; parent=0; cursor=0; query=""
   while :; do
     new_key="$view:$parent:$query"
@@ -206,10 +207,16 @@ variant_menu() {
       '')
         if [[ "$view" == families ]]; then
           [[ ${#visible[@]} -eq 0 ]] && continue
+          family_cursor=$cursor; family_query="$query"
           parent=${visible[$cursor]}; view=variants
-        else view=families; fi
-        cursor=0; query="" ;;
-      b|B) view=families; cursor=0; query="" ;;
+          cursor=0; query=""
+        else
+          view=families; cursor=$family_cursor; query="$family_query"
+        fi ;;
+      b|B)
+        if [[ "$view" == variants ]]; then
+          view=families; cursor=$family_cursor; query="$family_query"
+        fi ;;
       /)
         printf '\033[%s;1H\033[2K\033[?25hSearch: ' "$((height+8))"; stty "$saved_terminal"
         IFS= read -r query || exit 0
@@ -405,7 +412,7 @@ else
         for ((line=page; line<${#changes[@]} && line<page+limit; line++)); do
           printf '  %.*s\n' "$((columns-4))" "${changes[$line]}"
         done
-        printf '\033[%s;1H  ↑↓ Scroll    Y Apply    N Cancel' "$((rows-2))"
+        printf '\033[%s;1H  ↑↓ Scroll  ←→ Page  Y Apply  N Cancel' "$((rows-2))"
         confirmation=""; IFS= read -r -s -n 1 confirmation || exit 0
         case "$confirmation" in
           y|Y) break ;;
@@ -414,7 +421,10 @@ else
             tail=""; IFS= read -r -s -n 1 -t 1 tail || :
             if [[ "$tail" == '[' || "$tail" == O ]]; then
               tail=""; IFS= read -r -s -n 1 -t 1 tail || :
-              case "$tail" in A) ((page>0)) && ((page--)) ;; B) ((page+limit<${#changes[@]})) && ((page++)) ;; esac
+              case "$tail" in A) ((page>0)) && ((page--)) ;; B) ((page+limit<${#changes[@]})) && ((page++)) ;;
+                C) page=$((page+limit)); ((page>=${#changes[@]})) && page=$(((${#changes[@]}-1)/limit*limit)) ;;
+                D) page=$((page-limit)); ((page<0)) && page=0 ;;
+              esac
             fi ;;
         esac
       done
@@ -710,4 +720,3 @@ echo "Installed:         $installed"
 echo "Conflicts:         $conflicts"
 echo "Errors:            $errors"
 (( conflicts == 0 && errors == 0 ))
-
