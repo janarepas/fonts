@@ -7,16 +7,20 @@ Personal font collection for macOS and Fedora/Linux.
 Run `./install_fonts.sh` from the repository root. On macOS you can also
 double-click `Install Fonts.command`, which opens the same script.
 
-There is one list and one checkbox per family:
+Families and variants use a compact grid that adapts to the terminal width.
+There is one checkbox per family:
 
 - `[✓]`: fully installed initially; keep or install this family.
 - `[ ]`: absent initially; leave absent or remove this family.
 - `[~]`: partially installed; leave unchanged, or press Space to install the rest.
 
-Use Up/Down to move. Enter opens the highlighted family’s individual font files
+Use lowercase `h`/`l` to move left/right and `j`/`k` (or Down/Up) to move
+between grid rows. Left/Right arrows change pages from any highlighted cell.
+Navigation stops at the first/last page; resizing recalculates the grid.
+Long labels are shortened in cells; the highlighted name appears above the grid. Enter opens the highlighted family’s individual font files
 (Regular, Bold, Italic, etc.). Space toggles a single variant; at family level
 it toggles the whole family. Enter inside the variant list or `b` returns to families.
-`/` searches the current list, `r` resets search, and `q` cancels all changes.
+`/` opens text input (navigation shortcuts are inactive until Enter) and searches the current list, `r` resets search, and `q` cancels all changes.
 Selections are preserved across family navigation and search.
 Press `s` from either list to review all pending changes, then press `Y` to apply
 or `N` to cancel (case insensitive; no Enter required). No changes are made merely
@@ -70,3 +74,4 @@ family lists and search results are cached until the view or query changes.
 Font state is read at startup, then updated in memory when toggled. Resizing the
 terminal triggers a layout refresh. Ordinary arrow navigation does not clear or
 reload the screen.
+
