@@ -47,9 +47,10 @@ if [[ ! -d "$SOURCE" ]]; then
 fi
 variant_menu() {
   local saved_terminal key tail query cursor view parent i j row height start marker label state total enabled title
+  local UI_LOG=""
   local -a files owners original desired visible previous totals selected_counts
   local cache_key dimensions_dirty display_line screen_row new_key
-  local columns width dimensions grid_columns cell_width page_size cell column prefix offset
+  local columns width dimensions grid_columns cell_width page_size cell column offset suffix name_width padding
   files=(); owners=(); original=(); desired=(); totals=(); selected_counts=(); previous=()
   for ((i=0; i<${#FAMILIES[@]}; i++)); do
     totals[$i]=0; selected_counts[$i]=0
@@ -63,7 +64,7 @@ variant_menu() {
   done
   saved_terminal=$(stty -g) || exit 1
   VARIANT_TERMINAL="$saved_terminal"
-  variant_restore() { stty "$VARIANT_TERMINAL"; printf '\033[?25h\033[?1049l'; }
+  variant_restore() { [[ -z "$UI_LOG" ]] || rm -f -- "$UI_LOG"; stty "$VARIANT_TERMINAL"; printf '\033[?25h\033[?1049l'; }
   trap variant_restore EXIT
   trap 'exit 130' INT
   trap 'exit 143' TERM
@@ -134,23 +135,33 @@ variant_menu() {
           total_in_family=${totals[$i]}; enabled=${selected_counts[$i]}
           if ((total_in_family>0 && enabled==total_in_family)); then marker='✓'
           elif ((enabled>0)); then marker='~'; fi
-          label="${FAMILIES[$i]##*/} ($enabled/$total_in_family)"
+          label="${FAMILIES[$i]##*/}"
+          suffix=" ($enabled/$total_in_family)"
         else
           [[ "${desired[$i]}" == 1 ]] && marker='✓'
           label="${files[$i]##*/}"
+          suffix=""
         fi
-        # Truncate and pad before adding ANSI styling, which has no cell width.
-        cell="[$marker] $label"
-        if ((${#cell}>cell_width)); then cell="${cell:0:$((cell_width-1))}…"; fi
-        printf -v cell '%-*s' "$cell_width" "$cell"
+        # Fit the name separately so family counts stay visible. Leave a gutter
+        # outside the highlight, and pad by characters rather than printf bytes.
+        name_width=$((cell_width-5-${#suffix}))
+        if ((name_width<=0)); then
+          cell="[$marker]"
+          cell="${cell:0:$((cell_width-1))}"
+        else
+          if ((${#label}>name_width)); then label="${label:0:$((name_width-1))}…"; fi
+          cell="[$marker] $label$suffix"
+        fi
+        printf -v padding '%*s' "$((cell_width-1-${#cell}))" ''
+        cell="$cell$padding"
         if ((row==cursor)); then cell=$'\033[1;30;46m'"$cell"$'\033[0m'; fi
-        display_line="$display_line$cell"
+        display_line="$display_line$cell "
       done
       ui_put "$((screen_row+6))" "$display_line"
     done
     if [[ ${#visible[@]} -eq 0 ]]; then ui_put 6 '  No matches.'; fi
-    ui_put "$((height+6))" '  hjkl/↑↓ Move  ←→ Page  Space Toggle  Enter Open/Back'
-    ui_put "$((height+7))" '  S Save   B Back   / Search   R Reset   Q Quit'
+    ui_put "$((height+6))" '  Space Toggle'
+    ui_put "$((height+7))" '  s Save  b Back  r Reset  q Quit  / Search'
     total=$(((${#visible[@]}+page_size-1)/page_size)); ((total<1)) && total=1
     row=0; ((${#visible[@]}>0)) && row=$((cursor+1))
     printf -v display_line '  %s/%s  Page %s/%s  ✓ Wanted  ~ Partial' "$row" "${#visible[@]}" "$((start/page_size+1))" "$total"
@@ -167,7 +178,13 @@ variant_menu() {
         if [[ "$tail" == '[' || "$tail" == O ]]; then
           tail=""; IFS= read -r -s -n 1 -t 1 tail || :
           case "$tail" in
-            A) key=k ;; B) key=j ;; C) key=next ;; D) key=previous ;; *) key=ignored ;;
+            A) key=k ;; B) key=j ;; C) key=open ;; D) key=back ;;
+            5|6)
+              key=ignored
+              if [[ "$tail" == 5 ]]; then state=previous; else state=next; fi
+              IFS= read -r -s -n 1 -t 1 tail || :
+              [[ "$tail" == '~' ]] && key=$state ;;
+            *) key=ignored ;;
           esac
         else key=ignored
         fi ;;
@@ -204,16 +221,14 @@ variant_menu() {
           ((selected_counts[${owners[$j]}]+=desired[$j]))
           [[ "${desired[$j]}" != "${original[$j]}" ]] && ((pending++))
         done ;;
-      '')
+      open)
         if [[ "$view" == families ]]; then
           [[ ${#visible[@]} -eq 0 ]] && continue
           family_cursor=$cursor; family_query="$query"
           parent=${visible[$cursor]}; view=variants
           cursor=0; query=""
-        else
-          view=families; cursor=$family_cursor; query="$family_query"
         fi ;;
-      b|B)
+      back|b|B)
         if [[ "$view" == variants ]]; then
           view=families; cursor=$family_cursor; query="$family_query"
         fi ;;
@@ -222,18 +237,155 @@ variant_menu() {
         IFS= read -r query || exit 0
         stty -echo -icanon min 1 time 0; printf '\033[?25l'; previous=(); cursor=0 ;;
       r|R) query=""; cursor=0 ;;
-      s|S) break ;;
+      s|S)
+        variant_save
+        if [[ "$view" == variants ]]; then
+          view=families; cursor=$family_cursor; query="$family_query"
+        fi
+        dimensions_dirty=1 ;;
       q|Q) exit 0 ;;
     esac
   done
-  trap - WINCH
-  TO_INSTALL=(); TO_REMOVE=()
+}
+
+variant_save() {
+  local i file destination state name
+  local -a TO_INSTALL TO_REMOVE changed_names
+  TO_INSTALL=(); TO_REMOVE=(); changed_names=()
   for ((i=0; i<${#files[@]}; i++)); do
     if [[ "${desired[$i]}" != "${original[$i]}" ]]; then
       if [[ "${desired[$i]}" == 1 ]]; then TO_INSTALL[${#TO_INSTALL[@]}]="${files[$i]}"
       else TO_REMOVE[${#TO_REMOVE[@]}]="${files[$i]}"; fi
     fi
   done
+  variant_review
+  rm -f -- "$UI_LOG"; UI_LOG=''
+  # Files with the same basename share a destination, even across families.
+  for file in "${TO_INSTALL[@]}" "${TO_REMOVE[@]}"; do
+    changed_names[${#changed_names[@]}]="${file##*/}"
+  done
+  for ((i=0; i<${#files[@]}; i++)); do
+    file=${files[$i]}
+    for name in "${changed_names[@]}"; do
+      [[ "${file##*/}" == "$name" ]] || continue
+      destination="$TARGET/$name"
+      state=0
+      if [[ -f "$destination" && ! -L "$destination" ]] && cmp -s "$file" "$destination"; then state=1; fi
+      ((selected_counts[${owners[$i]}]+=state-desired[$i]))
+      original[$i]=$state; desired[$i]=$state
+      break
+    done
+  done
+  pending=0
+}
+
+variant_review() {
+  local size rows columns popup_width popup_body popup_top popup_left limit
+  local family page summary confirmation tail result installed_count removed_count status key log_lines log_entry ignored
+  local -a changes args log_page
+  UI_LOG=$(mktemp "${TMPDIR:-/tmp}/font-manager.XXXXXXXX") || exit 1
+  size=$(stty size); rows=${size%% *}; columns=${size#* }
+  [[ "$rows" =~ ^[0-9]+$ ]] && ((rows>0)) || rows=24
+  [[ "$columns" =~ ^[0-9]+$ ]] && ((columns>0)) || columns=80
+  popup_width=$((columns-5))
+  ((popup_width>62)) && popup_width=62
+  ((popup_width<1)) && popup_width=1
+  popup_body=$((rows-6))
+  ((popup_body>12)) && popup_body=12
+  ((popup_body<2)) && popup_body=2
+  popup_top=$(((rows-popup_body-4)/2+1))
+  popup_left=$(((columns-popup_width-2)/2+1))
+  ((popup_top<1)) && popup_top=1
+  ((popup_left<1)) && popup_left=1
+  limit=$((popup_body-1))
+  if [[ ${#TO_INSTALL[@]} -eq 0 && ${#TO_REMOVE[@]} -eq 0 ]]; then
+    font_popup 'FONT MANAGER' 'Any key: return to font families' 'No changes requested.'
+    IFS= read -r -s -n 1 ignored || :
+    return
+  fi
+  changes=()
+  for family in "${TO_INSTALL[@]}"; do changes[${#changes[@]}]="+ ${family##*/}"; done
+  for family in "${TO_REMOVE[@]}"; do changes[${#changes[@]}]="− ${family##*/}"; done
+  page=0
+  while :; do
+    printf -v summary 'Install: %s    Remove: %s' "${#TO_INSTALL[@]}" "${#TO_REMOVE[@]}"
+    font_popup 'REVIEW CHANGES' 'y Apply  n Cancel  |  Arrows scroll' "$summary" "${changes[@]:page:limit}"
+    confirmation=""; IFS= read -r -s -n 1 confirmation || exit 0
+    case "$confirmation" in
+      y|Y) break ;;
+      n|N) return ;;
+      q|Q) exit 0 ;;
+      $'\033')
+        tail=""; IFS= read -r -s -n 1 -t 1 tail || :
+        if [[ "$tail" == '[' || "$tail" == O ]]; then
+          tail=""; IFS= read -r -s -n 1 -t 1 tail || :
+          case "$tail" in A) ((page>0)) && ((page--)) ;; B) ((page+limit<${#changes[@]})) && ((page++)) ;;
+            C) page=$((page+limit)); ((page>=${#changes[@]})) && page=$(((${#changes[@]}-1)/limit*limit)) ;;
+            D) page=$((page-limit)); ((page<0)) && page=0 ;;
+          esac
+        fi ;;
+    esac
+  done
+  font_popup 'APPLYING CHANGES' '' 'Please wait…'
+  result=0
+  if [[ ${#TO_INSTALL[@]} -gt 0 ]]; then
+    args=(--install)
+    for family in "${TO_INSTALL[@]}"; do args[${#args[@]}]="--font=${family#"$SOURCE/"}"; done
+    /bin/bash "$ROOT/install_fonts.sh" "${args[@]}" >> "$UI_LOG" 2>&1 || result=1
+  fi
+  if [[ ${#TO_REMOVE[@]} -gt 0 ]]; then
+    args=(--uninstall)
+    for family in "${TO_REMOVE[@]}"; do args[${#args[@]}]="--font=${family#"$SOURCE/"}"; done
+    /bin/bash "$ROOT/install_fonts.sh" "${args[@]}" <<< Y >> "$UI_LOG" 2>&1 || result=1
+  fi
+  installed_count=$(awk '/^INSTALLED:/ {n++} END {print n+0}' "$UI_LOG")
+  removed_count=$(awk '/^REMOVED:/ {n++} END {print n+0}' "$UI_LOG")
+  if [[ "$result" == 0 ]]; then status='✓ Changes completed.'
+  else status='! Some changes failed.'; fi
+  printf -v summary 'Installed: %s    Removed: %s' "$installed_count" "$removed_count"
+  font_popup 'RESULT' 'v: detailed log    Any other key: return to font families' "$status" "$summary"
+  key=""; IFS= read -r -s -n 1 key || :
+  if [[ "$key" == v || "$key" == V ]]; then
+    # A bounded, scrollable log screen avoids dumping output into the terminal.
+    page=0
+    log_lines=$(wc -l < "$UI_LOG")
+    while :; do
+      log_page=()
+      while IFS= read -r log_entry; do log_page[${#log_page[@]}]="$log_entry"; done < <(
+        sed -n "$((page+1)),$((page+popup_body))p" "$UI_LOG"
+      )
+      font_popup 'DETAILED LOG' 'j/k Scroll    q Return to font families' "${log_page[@]}"
+      key=""; IFS= read -r -s -n 1 key || break
+      case "$key" in j|J) ((page+popup_body<log_lines)) && ((page++)) ;; k|K) ((page>0)) && ((page--)) ;; *) break ;; esac
+    done
+  fi
+}
+
+# Draw over the existing grid. Use the same bounds for each popup screen.
+font_popup() {
+  local title="$1" footer="$2" content border row
+  shift 2
+  printf -v border '%*s' "$popup_width" ''
+  border="${border// /-}"
+  printf '\033[%s;%sH+%s+' "$popup_top" "$popup_left" "$border"
+  printf '\033[%s;%sH|\033[1;36m' "$((popup_top+1))" "$popup_left"
+  popup_text "$title"
+  printf '\033[0m|'
+  for ((row=0; row<popup_body; row++)); do
+    content="${1-}"
+    if (($#)); then shift; fi
+    printf '\033[%s;%sH|' "$((popup_top+2+row))" "$popup_left"
+    popup_text "$content"
+    printf '|'
+  done
+  printf '\033[%s;%sH|' "$((popup_top+2+popup_body))" "$popup_left"
+  popup_text "$footer"
+  printf '|\033[%s;%sH+%s+' "$((popup_top+3+popup_body))" "$popup_left" "$border"
+}
+
+popup_text() {
+  local value="${1:0:$popup_width}"
+  printf '%s%*s' "$value" "$((popup_width-${#value}))" ''
 }
 
 # No external menu utility required; compatible with macOS Bash 3.2.
@@ -385,82 +537,10 @@ else
     STATUSES[${#STATUSES[@]}]="$matched/$count identical, $conflicts_found conflicts"
   done
   if [[ -t 0 && -t 1 && "${TERM:-dumb}" != dumb ]]; then
-    if [[ "$UNIFIED" == 1 ]]; then variant_menu; else keyboard_menu; fi
     if [[ "$UNIFIED" == 1 ]]; then
-      UI_LOG=$(mktemp "${TMPDIR:-/tmp}/font-manager.XXXXXXXX") || exit 1
-      unified_cleanup() {
-        rm -f "$UI_LOG"
-        variant_restore
-      }
-      trap unified_cleanup EXIT
-      if [[ ${#TO_INSTALL[@]} -eq 0 && ${#TO_REMOVE[@]} -eq 0 ]]; then
-        printf '\033[H\033[2J\033[1;36m  FONT MANAGER\033[0m\n\n  No changes requested.\n\n  Any key: close'
-        IFS= read -r -s -n 1 ignored || :
-        exit 0
-      fi
-      changes=()
-      for family in "${TO_INSTALL[@]}"; do changes[${#changes[@]}]="+ ${family##*/}"; done
-      for family in "${TO_REMOVE[@]}"; do changes[${#changes[@]}]="− ${family##*/}"; done
-      page=0
-      while :; do
-        size=$(stty size); rows=${size%% *}; columns=${size#* }
-        [[ "$rows" =~ ^[0-9]+$ ]] || rows=24
-        [[ "$columns" =~ ^[0-9]+$ ]] || columns=80
-        limit=$((rows-8)); ((limit<1)) && limit=1
-        printf '\033[H\033[2J\033[1;36m  REVIEW CHANGES\033[0m\n\n'
-        printf '  Install: %s    Remove: %s\n\n' "${#TO_INSTALL[@]}" "${#TO_REMOVE[@]}"
-        for ((line=page; line<${#changes[@]} && line<page+limit; line++)); do
-          printf '  %.*s\n' "$((columns-4))" "${changes[$line]}"
-        done
-        printf '\033[%s;1H  ↑↓ Scroll  ←→ Page  Y Apply  N Cancel' "$((rows-2))"
-        confirmation=""; IFS= read -r -s -n 1 confirmation || exit 0
-        case "$confirmation" in
-          y|Y) break ;;
-          n|N|q|Q) exit 0 ;;
-          $'\033')
-            tail=""; IFS= read -r -s -n 1 -t 1 tail || :
-            if [[ "$tail" == '[' || "$tail" == O ]]; then
-              tail=""; IFS= read -r -s -n 1 -t 1 tail || :
-              case "$tail" in A) ((page>0)) && ((page--)) ;; B) ((page+limit<${#changes[@]})) && ((page++)) ;;
-                C) page=$((page+limit)); ((page>=${#changes[@]})) && page=$(((${#changes[@]}-1)/limit*limit)) ;;
-                D) page=$((page-limit)); ((page<0)) && page=0 ;;
-              esac
-            fi ;;
-        esac
-      done
-      printf '\033[H\033[2J\033[1;36m  APPLYING CHANGES\033[0m\n\n  Please wait…\n'
-      result=0
-      if [[ ${#TO_INSTALL[@]} -gt 0 ]]; then
-        args=(--install)
-        for family in "${TO_INSTALL[@]}"; do args[${#args[@]}]="--font=${family#"$SOURCE/"}"; done
-        /bin/bash "$ROOT/install_fonts.sh" "${args[@]}" >> "$UI_LOG" 2>&1 || result=1
-      fi
-      if [[ ${#TO_REMOVE[@]} -gt 0 ]]; then
-        args=(--uninstall)
-        for family in "${TO_REMOVE[@]}"; do args[${#args[@]}]="--font=${family#"$SOURCE/"}"; done
-        /bin/bash "$ROOT/install_fonts.sh" "${args[@]}" <<< Y >> "$UI_LOG" 2>&1 || result=1
-      fi
-      installed_count=$(awk '/^INSTALLED:/ {n++} END {print n+0}' "$UI_LOG")
-      removed_count=$(awk '/^REMOVED:/ {n++} END {print n+0}' "$UI_LOG")
-      printf '\033[H\033[2J\033[1;36m  RESULT\033[0m\n\n'
-      if [[ "$result" == 0 ]]; then printf '  ✓ Changes completed.\n'
-      else printf '  ! Some changes failed.\n'; fi
-      printf '\n  Installed: %s    Removed: %s\n' "$installed_count" "$removed_count"
-      printf '\n  V: detailed log    Any other key: close'
-      key=""; IFS= read -r -s -n 1 key || :
-      if [[ "$key" == v || "$key" == V ]]; then
-        # A bounded, scrollable log screen avoids dumping output into the terminal.
-        page=0
-        log_lines=$(wc -l < "$UI_LOG")
-        while :; do
-          printf '\033[H\033[2J\033[1;36m  DETAILED LOG\033[0m\n\n'
-          sed -n "$((page+1)),$((page+limit))p" "$UI_LOG" | cut -c "1-$((columns-2))"
-          printf '\033[%s;1H  J/K Scroll    Q Close' "$((rows-2))"
-          key=""; IFS= read -r -s -n 1 key || break
-          case "$key" in j|J) ((page+limit<log_lines)) && ((page++)) ;; k|K) ((page>0)) && ((page--)) ;; *) break ;; esac
-        done
-      fi
-      exit "$result"
+      variant_menu
+    else
+      keyboard_menu
     fi
   else
   query=""

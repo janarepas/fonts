@@ -15,18 +15,19 @@ There is one checkbox per family:
 - `[~]`: partially installed; leave unchanged, or press Space to install the rest.
 
 Use lowercase `h`/`l` to move left/right and `j`/`k` (or Down/Up) to move
-between grid rows. Left/Right arrows change pages from any highlighted cell.
+between grid rows. Page Up and Page Down change pages from any highlighted cell.
 Navigation stops at the first/last page; resizing recalculates the grid.
-Long labels are shortened in cells; the highlighted name appears above the grid. Enter opens the highlighted family’s individual font files
+Long labels are shortened in cells; the highlighted name appears above the grid. Right Arrow opens the highlighted family’s individual font files
 (Regular, Bold, Italic, etc.). Space toggles a single variant; at family level
-it toggles the whole family. Enter inside the variant list or `b` returns to families.
+it toggles the whole family. Left Arrow or `b` returns to families.
 `/` opens text input (navigation shortcuts are inactive until Enter) and searches the current list, `r` resets search, and `q` cancels all changes.
 Selections are preserved across family navigation and search. Returning from a
 family restores the previous family cursor and search query.
-Press `s` from either list to review all pending changes, then press `Y` to apply
-or `N` to cancel (case insensitive; no Enter required). No changes are made merely
+Press `s` from either list to review all pending changes in a popup over the grid.
+Press `y` to apply or `n` to discard the pending changes and return to the family list (case insensitive; no Enter required). No changes are made merely
 by entering or leaving a family. The checkbox reflects the desired installation
-state; mixed families show `[~]`.
+state; mixed families show `[~]`. After applying changes, press any key on
+the result screen to return to the family list, or `v` to view the detailed log first.
 
 All logic lives in the root `install_fonts.sh`; there is no separate action menu.
 
