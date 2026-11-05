@@ -1,4 +1,4 @@
-# macos_fonts
+# fonts
 
 Personal font collection for macOS and Fedora/Linux.
 
@@ -57,7 +57,7 @@ checks this target folder, not system fonts or fonts installed under other names
 ## Collection and licensing
 
 Fonts are grouped by family in `fonts/`; `fonts-manifest.csv` records inventory.
-The collection contains 846 files in 104 families. Some fonts are commercial,
+The collection contains 893 files in 105 families. Some fonts are commercial,
 trial or restricted to personal use. Verify licenses individually; do not
 redistribute without permission. Source/license fields remain unverified.
 
