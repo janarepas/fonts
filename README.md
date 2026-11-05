@@ -57,18 +57,17 @@ checks this target folder, not system fonts or fonts installed under other names
 
 ## Collection and licensing
 
-Fonts are grouped by family in `fonts/`; `fonts-manifest.csv` records inventory.
-The collection contains 893 files in 105 families. Some fonts are commercial,
-trial or restricted to personal use. Verify licenses individually; do not
-redistribute without permission. Source/license fields remain unverified.
+Fonts are grouped by family in `fonts/`. The installer discovers available fonts
+from that directory at startup. Some fonts are commercial, trial or restricted
+to personal use. Verify licenses individually before redistributing them.
 
 ## Terminal interface
 
 The interactive manager stays on an alternate terminal screen with a highlighted
 current row, bounded scrolling, search, pending-change counts and a fixed shortcut
-footer. Confirmation is a separate scrollable Y/N screen. Installation output is
-captured instead of flooding the terminal; the result screen shows actual installed
-and removed counts. Press V to view the paginated log (J/K to scroll, Q to close).
+footer. A popup over the font grid shows the changes before you apply them with
+`y` or cancel with `n`. The result popup shows the installed and removed counts.
+Press `v` to view the log, `j`/`k` to scroll, and `q` to return to the family list.
 The terminal and cursor are restored on exit and interruption.
 
 The interactive UI is in English. Navigation updates only changed terminal rows;
