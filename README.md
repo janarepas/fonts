@@ -14,8 +14,8 @@ There is one checkbox per family:
 - `[ ]`: absent initially; leave absent or remove this family.
 - `[~]`: partially installed; leave unchanged, or press Space to install the rest.
 
-Use lowercase `h`/`l` to move left/right and `j`/`k` (or Down/Up) to move
-between grid rows. Page Up and Page Down change pages from any highlighted cell.
+Use lowercase `h`/`l` to move left/right and `j`/`k` to move
+between grid rows. The page follows the highlighted cell.
 Navigation stops at the first/last page; resizing recalculates the grid.
 Long labels are shortened in cells; the highlighted name appears above the grid. Right Arrow opens the highlighted family’s individual font files
 (Regular, Bold, Italic, etc.). Space toggles a single variant; at family level
@@ -73,8 +73,8 @@ The terminal and cursor are restored on exit and interruption.
 The interactive UI is in English. Navigation updates only changed terminal rows;
 family lists and search results are cached until the view or query changes.
 Font state is read at startup, then updated in memory when toggled. Resizing the
-terminal triggers a layout refresh. Ordinary arrow navigation does not clear or
+terminal triggers a layout refresh. Moving the selection does not clear or
 reload the screen.
 
 
-The review screen also supports Left/Right to page through pending changes.
+In the review popup, use `j`/`k` to scroll and `h`/`l` to page through pending changes.

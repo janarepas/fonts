@@ -50,7 +50,7 @@ variant_menu() {
   local UI_LOG=""
   local -a files owners original desired visible previous totals selected_counts
   local cache_key dimensions_dirty display_line screen_row new_key
-  local columns width dimensions grid_columns cell_width page_size cell column offset suffix name_width padding
+  local columns width dimensions grid_columns cell_width page_size cell column suffix name_width padding
   files=(); owners=(); original=(); desired=(); totals=(); selected_counts=(); previous=()
   for ((i=0; i<${#FAMILIES[@]}; i++)); do
     totals[$i]=0; selected_counts[$i]=0
@@ -160,7 +160,7 @@ variant_menu() {
       ui_put "$((screen_row+6))" "$display_line"
     done
     if [[ ${#visible[@]} -eq 0 ]]; then ui_put 6 '  No matches.'; fi
-    ui_put "$((height+6))" '  Space Toggle'
+    ui_put "$((height+6))" '  h/j/k/l Move  ← Back  → Variants  Space Toggle'
     ui_put "$((height+7))" '  s Save  b Back  r Reset  q Quit  / Search'
     total=$(((${#visible[@]}+page_size-1)/page_size)); ((total<1)) && total=1
     row=0; ((${#visible[@]}>0)) && row=$((cursor+1))
@@ -178,12 +178,10 @@ variant_menu() {
         if [[ "$tail" == '[' || "$tail" == O ]]; then
           tail=""; IFS= read -r -s -n 1 -t 1 tail || :
           case "$tail" in
-            A) key=k ;; B) key=j ;; C) key=open ;; D) key=back ;;
+            C) key=open ;; D) key=back ;;
             5|6)
-              key=ignored
-              if [[ "$tail" == 5 ]]; then state=previous; else state=next; fi
               IFS= read -r -s -n 1 -t 1 tail || :
-              [[ "$tail" == '~' ]] && key=$state ;;
+              key=ignored ;;
             *) key=ignored ;;
           esac
         else key=ignored
@@ -196,14 +194,6 @@ variant_menu() {
       j)
         if ((cursor+grid_columns<${#visible[@]})); then ((cursor+=grid_columns))
         elif ((cursor/grid_columns<(${#visible[@]}-1)/grid_columns)); then cursor=$((${#visible[@]}-1)); fi ;;
-      previous|next)
-        # Page movement preserves the cell offset, independent of screen position.
-        offset=$((cursor-start))
-        if [[ "$key" == previous ]] && ((start>0)); then cursor=$((start-page_size+offset))
-        elif [[ "$key" == next ]] && ((start+page_size<${#visible[@]})); then
-          cursor=$((start+page_size+offset))
-          ((cursor>=${#visible[@]})) && cursor=$((${#visible[@]}-1))
-        fi ;;
       ' ')
         [[ ${#visible[@]} -eq 0 ]] && continue
         i=${visible[$cursor]}
@@ -309,20 +299,20 @@ variant_review() {
   page=0
   while :; do
     printf -v summary 'Install: %s    Remove: %s' "${#TO_INSTALL[@]}" "${#TO_REMOVE[@]}"
-    font_popup 'REVIEW CHANGES' 'y Apply  n Cancel  |  Arrows scroll' "$summary" "${changes[@]:page:limit}"
+    font_popup 'REVIEW CHANGES' 'y Apply  n Cancel  |  j/k Scroll  h/l Page' "$summary" "${changes[@]:page:limit}"
     confirmation=""; IFS= read -r -s -n 1 confirmation || exit 0
     case "$confirmation" in
       y|Y) break ;;
       n|N) return ;;
       q|Q) exit 0 ;;
+      k) ((page>0)) && ((page--)) ;;
+      j) ((page+limit<${#changes[@]})) && ((page++)) ;;
+      l) page=$((page+limit)); ((page>=${#changes[@]})) && page=$(((${#changes[@]}-1)/limit*limit)) ;;
+      h) page=$((page-limit)); ((page<0)) && page=0 ;;
       $'\033')
         tail=""; IFS= read -r -s -n 1 -t 1 tail || :
         if [[ "$tail" == '[' || "$tail" == O ]]; then
           tail=""; IFS= read -r -s -n 1 -t 1 tail || :
-          case "$tail" in A) ((page>0)) && ((page--)) ;; B) ((page+limit<${#changes[@]})) && ((page++)) ;;
-            C) page=$((page+limit)); ((page>=${#changes[@]})) && page=$(((${#changes[@]}-1)/limit*limit)) ;;
-            D) page=$((page-limit)); ((page<0)) && page=0 ;;
-          esac
         fi ;;
     esac
   done
@@ -425,7 +415,7 @@ keyboard_menu() {
     start=$((cursor / height * height))
     printf '\033[H\033[2J'
     printf 'Font manager — Space: toggle desired installation state\n'
-    printf 'Up/Down: move | Space: toggle | Enter: apply | q: cancel\n'
+    printf 'h/k: previous | j/l: next | Space: toggle | Enter: apply | q: cancel\n'
     printf '/: search | r: reset search | a: select visible | n: clear visible | q: cancel\n'
     printf 'Search: %s | [✓] keep/install, [ ] absent/remove, [~] partial\n\n' "$query"
     for ((row=start; row<${#matches[@]} && row<start+height; row++)); do
@@ -444,11 +434,9 @@ keyboard_menu() {
         tail=""; IFS= read -r -s -n 1 -t 1 tail || :
         if [[ "$tail" == '[' || "$tail" == O ]]; then
           tail=""; IFS= read -r -s -n 1 -t 1 tail || :
-          case "$tail" in
-            A) (( cursor > 0 )) && ((cursor--)) ;;
-            B) (( cursor+1 < ${#matches[@]} )) && ((cursor++)) ;;
-          esac
         fi ;;
+      h|k) (( cursor > 0 )) && ((cursor--)) ;;
+      j|l) (( cursor+1 < ${#matches[@]} )) && ((cursor++)) ;;
       ' ')
         if [[ ${#matches[@]} -gt 0 ]]; then
           i=${matches[$cursor]}; if [[ "${checked[$i]}" == 1 ]]; then checked[$i]=0; else checked[$i]=1; fi

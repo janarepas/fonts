@@ -40,21 +40,20 @@ class FontManagerTest(unittest.TestCase):
         self.move('j', 4, 1)
         self.move('k', 2, 1)
         self.move('h', 1, 1)
-        self.move('\x1b[6~', 31, 2)
-        self.move('j', 33, 2)
-        self.move('\x1b[5~', 3, 1)
-        self.move('\x1b[6~', 33, 2)
-        self.move('\x1b[6~', 63, 3)
-        self.move('j', 65, 3)
-        # No wrapping at boundaries; next input proves the cursor stayed put.
-        self.child.send('\x1b[6~')
+        for position in range(3, 66, 2):
+            self.move('j', position, (position - 1) // 30 + 1)
+        self.child.send('j')
         self.move('k', 63, 3)
-        self.move('\x1b[5~', 33, 2)
-        self.move('\x1b[5~', 3, 1)
-        self.child.send('\x1b[5~')
-        self.move('j', 5, 1)
+
+    def test_vertical_arrows_do_not_move_selection(self):
+        self.move('j', 3, 1)
+        for arrow in ('\x1b[A', '\x1b[B', '\x1bOA', '\x1bOB'):
+            self.child.send(arrow)
+            self.move('l', 4, 1)
+            self.move('h', 3, 1)
 
     def test_grid_alignment_and_help(self):
+        self.assertIn('h/j/k/l Move  ← Back  → Variants', self.initial_screen)
         self.assertIn('s Save  b Back  r Reset  q Quit', self.initial_screen)
         row = next(line for line in self.initial_screen.split('\x1b[2K')
                    if '… (0/2)' in line)
